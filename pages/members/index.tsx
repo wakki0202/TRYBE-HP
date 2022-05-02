@@ -1,8 +1,6 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
-import Header from '../../components/Header.js';
-import Footer from '../../components/Footer.js';
 
 const Home: NextPage = () => {
   return (
@@ -14,24 +12,22 @@ const Home: NextPage = () => {
       </Head>
 
       <main>
-        <Header />
         <div className='w-9/12 m-auto'>
-        <ul className="border border-black lg:flex 
- lg:col-span-3 lg:flex-wrap">
-            <li className="border border-black lg:w-4/12 mb-5">
-              <Image src="/hinata.gif" className='w-full' width={350} height={200} alt=""  />
+        <ul className="border border-black  
+ lg:grid lg:grid-cols-3 lg:flex-wrap">
+            <li className="border border-black  mb-5">
+              <Image src="/hinata.gif" width={500} height={300} alt=""  />
               <p>山口陽</p>
               <p>代表/企画屋</p>
             </li>
-            <li className="border border-black w-4/12 mb-5">2</li>
-            <li className="border border-black w-4/12 mb-5">3</li>
+            <li className="border border-black mb-5">2</li>
+            <li className="border border-black mb-5">3</li>
 
-            <li className="border border-black w-4/12 mb-5">1</li>
-            <li className="border border-black w-4/12 mb-5">2</li>
-            <li className="border border-black w-4/12 mb-5">3</li>
+            <li className="border border-black mb-5">1</li>
+            <li className="border border-black mb-5">2</li>
+            <li className="border border-black mb-5">3</li>
           </ul>
         </div>
-        <Footer />
       </main>
 
 

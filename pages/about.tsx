@@ -1,8 +1,8 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
-import Header from '../components/Header.js';
-import Footer from '../components/Footer.js';
+import Pertoner from '../components/Pertoner.js';
+import Contactbtn from '../components/Contactbtn.js';
 import Link from 'next/link';
 
 const Home: NextPage = () => {
@@ -16,7 +16,6 @@ const Home: NextPage = () => {
       </Head>
 
       <main>
-        <Header />
         <div className='w-9/12 m-auto font-gothic'>
           <h1 className='text-6xl font-bold my-16 leading-relaxed'>THE STUDENT
             <br  />COMPANY</h1>
@@ -98,22 +97,13 @@ const Home: NextPage = () => {
           </div>
           <div className='mt-20'>
             <h1 className='text-center text-3xl mb-5'>Partoners</h1>
-            <ul className=" lg:flex lg:col-span-3 lg:flex-wrap">
-              <li className="border border-black lg:w-4/12 ">1</li>
-              <li className="border border-black w-4/12 ">2</li>
-              <li className="border border-black w-4/12">3</li>
-
-              <li className="border border-black w-4/12">1</li>
-              <li className="border border-black w-4/12">2</li>
-              <li className="border border-black w-4/12">3</li>
-            </ul>
+            <Pertoner />
           </div>
           <div className='mt-20 mb-10 text-center'>
             <h1 className='text-center text-3xl mb-5'>Contact</h1>
-            <Link href={"/contact"}><button type="button" className="text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-sm px-5 py-4 text-center  my-2 w-7/12">お問い合わせはこちら</button></Link>
+            <Contactbtn />
           </div>
         </div>
-        <Footer />
       </main>
     </div>
   )

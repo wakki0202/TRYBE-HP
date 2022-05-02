@@ -2,8 +2,6 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import Header from '../components/Header.js';
-import Footer from '../components/Footer.js';
 import Link from 'next/link';
 
 const Home: NextPage = () => {
@@ -16,7 +14,6 @@ const Home: NextPage = () => {
       </Head>
 
       <main>
-        <Header />
         <main>
           <div className='w-10/12 m-auto'>
             <h1 className=' text-3xl  mt-20 font-bold'>Contact.</h1>
@@ -53,7 +50,6 @@ const Home: NextPage = () => {
             <Link href='/contact'><a className='font-bold'>確認画面へ</a></Link>
           </div>
         </main>
-        <Footer />
       </main>
 
     </div>

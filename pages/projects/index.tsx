@@ -1,8 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import Image from 'next/image'
-import Header from '../../components/Header.js';
-import Footer from '../../components/Footer.js';
+import Img from 'next/image'
+import ProjectCard from '../../components/Project'
 
 const Home: NextPage = () => {
   return (
@@ -13,9 +12,29 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main>
-        <Header />
-        <Footer />
+      <main className='font-gothic'>
+        <div className='w-9/12 m-auto border border-black grid grid-cols-2 gap-4'>
+          <div className=' border border-black'>
+            
+            <ProjectCard title="人狼コロシアム" subTitle="高校の休み時間を取り戻すために 生まれたボードゲーム" category1="Entertainment" category2='Student'/>
+          </div>
+          <div className=' border border-black'>
+            <ProjectCard title="青春奪還作戦" subTitle="高校を舞台にしたキャリアイベント" category1="Entertainment" category2='Student' />
+          </div>
+          <div className=' border border-black'>
+            <Img src="/DSC02957.JPG" className='w-full' width={600} height={330} ></Img>
+            <ProjectCard title="屋台プロジェクト" subTitle="あたたかいを届ける屋台" category1="Entertainment" category2='Student' />
+          </div>
+          <div className=' border border-black'>
+            <ProjectCard title="サンタ屋" subTitle="みんなが幸せなクリスマスを" category1="Entertainment" category2='Student' />
+          </div>
+          <div className=' border border-black'>
+            <ProjectCard title="1stステッププロジェクト" subTitle="誰かの一歩を応援する" category1="Entertainment" category2='Student' />
+          </div>
+          <div className=' border border-black'>
+            <ProjectCard title="人狼コロシアム" subTitle="" category1="Entertainment" category2='Student' />
+          </div>
+        </div>
       </main>
 
     </div>
