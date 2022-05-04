@@ -13,16 +13,15 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main>
-        <main>
+        <main className='font-gothic'>
           <div className='w-10/12 m-auto'>
-            <h1 className=' text-3xl  mt-20 font-bold'>Contact.</h1>
+            <h1 className=' text-3xl lg:text-4xl mt-20 font-bold'>Contact.</h1>
             <span className='text-1xl'>お問い合わせ</span>
-            <p className='text-center mt-8 mb-8 text-xs'>下記のフォームをご記入の上、 お問い合わせください。</p>
+            <p className='text-center mt-8 mb-8 text-xs lg:text-lg'>下記のフォームをご記入の上、 お問い合わせください。</p>
           </div>
 
 
-          <div className='w-9/12 m-auto'>
+          <div className='w-9/12 m-auto lg:w-7/12'>
             <label className='block font-bold pb-3 ' htmlFor="">お問い合わせの種類*</label>
             <select className='w-full bg-gray-100 p-1 h-14 lg:h-16' name="" id="">
               <option disabled>選択してください</option>
@@ -30,27 +29,27 @@ const Home: NextPage = () => {
               <option value="">採用に関して</option>
             </select>
           </div>
-          <div className='w-9/12 m-auto pt-8'>
+          <div className='w-9/12 m-auto pt-8 lg:w-7/12'>
             <label className='block font-bold pb-3' htmlFor="">お名前*</label>
             <input className='w-full bg-gray-100 p-2 h-14 lg:h-16' name="" id="" placeholder='サイクル太郎'>
             </input>
           </div>
-          <div className='w-9/12 m-auto pt-8'>
+          <div className='w-9/12 m-auto pt-8 lg:w-7/12'>
             <label className='block font-bold pb-3' htmlFor="">メールアドレス*</label>
             <input className='w-full bg-gray-100 p-2 h-14 lg:h-16' name="" id="" placeholder='xxx@example.com'>
             </input>
           </div>
-          <div className='w-9/12 m-auto pt-8'>
+          <div className='w-9/12 m-auto pt-8 lg:w-7/12'>
             <label className='block font-bold pb-3' htmlFor="">お問い合わせ内容*</label>
             <textarea className='w-full bg-gray-100 h-14 p-2' name="" id="" placeholder='お問い合わせ内容を入力してください'>
             </textarea>
           </div>
 
-          <div className='text-center mt-10 mb-20 border border-gray-300  w-9/12 m-auto py-5'>
+          <div className='text-center mt-10 mb-20 border border-gray-300  w-9/12 m-auto py-5 lg:w-7/12'>
             <Link href='/contact'><a className='font-bold'>確認画面へ</a></Link>
           </div>
         </main>
-      </main>
+      
 
     </div>
   )

@@ -1,6 +1,6 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import Image from 'next/image'
+import Img from 'next/image'
 import styles from '../styles/Home.module.css'
 import Pertoner from '../components/Pertoner.js';
 import Contactbtn from '../components/Contactbtn';
@@ -15,8 +15,8 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main>
-        <div className='w-9/12 m-auto font-gothic'>
+      <main className='text-gray-700'>
+        <div className='w-9/12 m-auto font-gothic mt-20'>
           <div className='flex'>
             <div className='w-4/12'><h1 className='text-2xl font-bold'>WHO WE ARE</h1></div>
             <div className='w-8/12'><h1 className='text-2xl font-bold mb-2'>『TRYBE Inc.は学生起業である。』</h1>
@@ -54,43 +54,43 @@ const Home: NextPage = () => {
             </div>
           </div>
 
-          <div className=' mt-14'>
-              <h1 className='text-2xl font-bold '>PROJECTS</h1>
+          <div className=' mt-14 '>
+            <h1 className='text-2xl font-bold mb-6 '>PROJECTS</h1>
               <div className='flex'>
-                <div className='w-6/12 border'>
-                  <img src="" alt="" />
-                  <h3>人狼コロシアム</h3>
-                  <p>高校の休み時間を取り戻すために 生まれたボードゲーム</p>
+                <div className='w-6/12 '>
+                  <Img src="/DSC02957.JPG" alt="" width={500} height={300} />
+                  <h3 className='text-lg font-bold'>人狼コロシアム</h3>
+                  <p className='text-sm'>高校の休み時間を取り戻すために 生まれたボードゲーム</p>
                 </div>
-                <div className='w-6/12 border'>
-                  <img src="" alt="" />
-                  <h3>青春奪還作戦</h3>
-                  <p>高校を舞台にした全国キャリアイベント</p>
+                <div className='w-6/12 '>
+                <Img src="/DSC02957.JPG" alt="" width={500} height={300}/>
+                  <h3 className='text-lg font-bold'>青春奪還作戦</h3>
+                  <p className='text-sm'>高校を舞台にした全国キャリアイベント</p>
                 </div>
               </div>
             
-              <div className='flex'>
-                <div className='w-6/12 border'>
-                  <img src="" alt="" />
-                  <h3>屋台プロジェクト</h3>
-                  <p>あたたかいを届ける屋台</p>
+              <div className='flex mt-14'>
+                <div className='w-6/12 '>
+                <Img src="/DSC02957.JPG" alt="" width={500} height={300}/>
+                  <h3 className='text-lg font-bold'>屋台プロジェクト</h3>
+                <p className='text-sm'>あたたかいを届ける屋台</p>
                 </div>
-                <div className='w-6/12 border'>
-                  <img src="" alt="" />
-                  <h3>サンタ屋</h3>
-                  <p>みんなが幸せなクリスマスを</p>
+                <div className='w-6/12 '>
+                <Img src="/DSC02957.JPG" alt="" width={500} height={300}/>
+                  <h3 className='text-lg font-bold'>サンタ屋</h3>
+                <p className='text-sm'>みんなが幸せなクリスマスを</p>
                 </div>
               </div>
-              <div className='text-center p-3'>
-              <Link href={"projects"}><a className='border '>All Project</a></Link>
+            <div className='text-center p-3 mt-12'>
+              <Link href={"projects"}><a className='border border-black  py-3 px-14 hover:bg-black hover:text-white duration-200'>All Project ＞</a></Link>
               </div>
           </div>
-          <div className=' mt-14'>
+          <div className=' mt-20'>
             <h1 className='text-2xl font-bold '>OUR CLIENTS</h1>
             <Pertoner />
           </div>
-          <div className=' mt-14 text-center'>
-            <h1 className='text-2xl font-bold text-left'>CONTACT</h1>
+          <div className=' mt-20 text-center mb-20'>
+            <h1 className='text-2xl font-bold text-left mb-8'>CONTACT</h1>
             <Contactbtn />
           </div>
         </div>

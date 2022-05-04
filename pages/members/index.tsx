@@ -1,6 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
+import Member from '../../components/Member'
 
 const Home: NextPage = () => {
   return (
@@ -12,20 +13,19 @@ const Home: NextPage = () => {
       </Head>
 
       <main>
-        <div className='w-9/12 m-auto'>
-        <ul className="border border-black  
+        <div className='w-9/12 m-auto mb-14'>
+          <h1 className='mt-24 mb-12 text-4xl font-bold text-center'>ALL MEMBER</h1>
+        <ul className="  
  lg:grid lg:grid-cols-3 lg:flex-wrap">
-            <li className="border border-black  mb-5">
-              <Image src="/hinata.gif" width={500} height={300} alt=""  />
-              <p>山口陽</p>
-              <p>代表/企画屋</p>
-            </li>
-            <li className="border border-black mb-5">2</li>
-            <li className="border border-black mb-5">3</li>
-
-            <li className="border border-black mb-5">1</li>
-            <li className="border border-black mb-5">2</li>
-            <li className="border border-black mb-5">3</li>
+            <Member />
+            <Member />
+            <Member />
+            <Member />
+            <Member />
+            <Member />
+            <Member />
+            <Member />
+            <Member />
           </ul>
         </div>
       </main>

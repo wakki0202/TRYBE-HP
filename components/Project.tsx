@@ -7,14 +7,19 @@ type Project = {
   category2: string
 }
 
+type ProjectContents = {
+  title: string
+}
+
+
 const ProjectCard = (props: Project) => (
     
-  <div>
+  <div className="mt-2">
     <p className="inline text-xs bg-black text-white py-1 px-3 rounded-xl">{props.category1}</p>
     <p className="inline text-xs bg-black text-white py-1 px-3 rounded-xl ml-2">{props.category2}</p>
     <h1 className="font-bold text-2xl py-3">{props.title}</h1>
     <h2 className="font-medium text-md">{props.subTitle}</h2>
-    <p className="pt-8">and more</p>
+    <p className="pt-5 font-normal">and more</p>
   </div>
 
 );
