@@ -3,18 +3,23 @@ import Link from 'next/link';
 const Footer = () => (
   <div>
 
-    <nav className=" bg-black  text-white">
+    <nav className=" bg-black  text-white pt-5 ">
       <div className='text-center'>
         <h1 className='text-2xl '>TRYBE.inc</h1>
       </div>
       <div >
         <div className=''>
-          <ul className=' lg:flex lg:justify-center mt-3'>
-            <li className='px-2'>Top</li>
-            <li className='px-2'>About</li>
-            <li className='px-2'>Contact</li>
+          <ul className=' lg:flex lg:justify-center mt-5'>
+            <Link href={"/"}><a><li className='px-2'>Top</li></a></Link>
+            <Link href={"/about"}><a><li className='px-2'>About</li></a></Link>
+            <Link href={"/projects"}><a><li className='px-2'>Projects</li></a></Link>
+            <Link href={"/members"}><a><li className='px-2'>Members</li></a></Link>
+            <Link href={"/contact"}><a><li className='px-2'>Contact</li></a></Link>
           </ul>
         </div>
+      </div>
+      <div>
+        <p className='text-center text-xs border-t border-gray-700 pt-1 pb-1 mt-8'>© 2019 TRYBE Inc.</p>
       </div>
     </nav>
 

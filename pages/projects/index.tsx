@@ -18,7 +18,7 @@ const Home: NextPage = () => {
         <div className=' grid grid-cols-2 gap-4'>
           
           <div className='  mb-12'>
-            <Link href="/[title]"><a>
+            <Link href="projects/${props.title}"><a>
             <Img src="/DSC02957.JPG" className='w-full' width={600} height={330} ></Img>
             <div className=' grid grid-cols-2 gap-2'>
               <Img src="/DSC02957.JPG" className='w-full' width={600} height={330} ></Img>
@@ -30,6 +30,7 @@ const Home: NextPage = () => {
           </div>
 
           <div className='  mb-12'>
+            <Link href="projects/${props.title}"><a>
             <Img src="/DSC02957.JPG" className='w-full' width={600} height={330} ></Img>
             <div className=' grid grid-cols-2 gap-2'>
               <Img src="/DSC02957.JPG" className='w-full' width={600} height={330} ></Img>
@@ -37,7 +38,7 @@ const Home: NextPage = () => {
               <Img src="/DSC02957.JPG" className='w-full' width={600} height={330} ></Img>
               <Img src="/DSC02957.JPG" className='w-full' width={600} height={330} ></Img>
             </div>
-            <ProjectCard title="青春奪還作戦" subTitle="高校を舞台にしたキャリアイベント" category1="Entertainment" category2='Student' />
+              <ProjectCard title="青春奪還作戦" subTitle="高校を舞台にしたキャリアイベント" category1="Entertainment" category2='Student' /></a></Link>
           </div>
 
           <div className='  mb-12'>

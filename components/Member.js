@@ -1,7 +1,7 @@
 import Image from 'next/image'
 
 const Member = () => (
-  <li className="  mb-5">
+  <li className="  mb-8">
     <div className='border border-gray-300'>
       <Image src="/hinata.gif" width={500} height={300} alt="" className='' />
     </div>

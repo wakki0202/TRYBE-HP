@@ -4,10 +4,12 @@ import Head from 'next/head'
 import Img from 'next/image'
 import Link from 'next/link'
 
-const Home: NextPage = () => {
+const Title: React.FC = () => {
   return (
     <div>
-      <h1>a</h1>
+      rrrrr
     </div>
   )
 }
+
+export default Title;
