@@ -16,6 +16,8 @@ const Home: NextPage = () => {
       </Head>
 
       <main className='text-gray-700'>
+        <div id='firstView' className='w-full'>
+        </div>
         <div className='w-9/12 m-auto font-gothic mt-20'>
           <div className='flex'>
             <div className='w-4/12'><h1 className='text-2xl font-bold'>WHO WE ARE</h1></div>
@@ -26,7 +28,7 @@ const Home: NextPage = () => {
               <p className='line-relaxed'>
                 私たちは学生のリアルタイムにコミットした企業です。 学生にわかりやすくタメになる「教育」事業と、 学生がおもしろくたのしめる「クリエイティブ」事業と、 学生に求められる「ブランディング」事業を提供しています。</p></div>
           </div>
-          <div className='flex mt-14'>
+          <div className='flex mt-20'>
             <div className='w-4/12'><h1 className='text-2xl font-bold'>OUR SERVICE</h1></div>
             <div className='w-8/12'>
               
@@ -54,7 +56,7 @@ const Home: NextPage = () => {
             </div>
           </div>
 
-          <div className=' mt-14 '>
+          <div className=' mt-40 '>
             <h1 className='text-2xl font-bold mb-6 '>PROJECTS</h1>
               <div className='flex'>
                 <div className='w-6/12 '>
@@ -85,11 +87,11 @@ const Home: NextPage = () => {
               <Link href={"projects"}><a className='border border-black  py-3 px-14 hover:bg-black hover:text-white duration-200'>All Project ＞</a></Link>
               </div>
           </div>
-          <div className=' mt-20'>
-            <h1 className='text-2xl font-bold '>OUR CLIENTS</h1>
+          <div className=' mt-40'>
+            <h1 className='text-2xl font-bold mb-6'>OUR CLIENTS</h1>
             <Pertoner />
           </div>
-          <div className=' mt-20 text-center mb-20'>
+          <div className=' mt-40 text-center mb-20'>
             <h1 className='text-2xl font-bold text-left mb-8'>CONTACT</h1>
             <Contactbtn />
           </div>

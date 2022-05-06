@@ -41,11 +41,11 @@ const Home: NextPage = () => {
           </div>
           <div className='w-9/12 m-auto pt-8 lg:w-7/12'>
             <label className='block font-bold pb-3' htmlFor="">お問い合わせ内容*</label>
-            <textarea className='w-full bg-gray-100 h-14 p-2' name="" id="" placeholder='お問い合わせ内容を入力してください'>
+            <textarea className='w-full bg-gray-100 h-40 p-2' name="" id="" placeholder='お問い合わせ内容を入力してください'>
             </textarea>
           </div>
 
-          <div className='text-center mt-10 mb-20 border border-gray-300  w-9/12 m-auto py-5 lg:w-7/12'>
+        <div className='text-center mt-10 mb-20 border border-gray-300  w-9/12 m-auto py-5 lg:w-7/12 hover:bg-gray-800 hover:text-white duration-200'>
             <Link href='/contact'><a className='font-bold'>確認画面へ</a></Link>
           </div>
         </main>
