@@ -8,7 +8,7 @@ export default function Layout({ children }) {
     <>
       <Headtag />
       <Header />
-      <main>{children}</main>
+      <main className='font-gothic'>{children}</main>
       <Footer />
     </>
   )

@@ -6,6 +6,7 @@ import Pertoner from '../components/Pertoner.js';
 import Contactbtn from '../components/Contactbtn';
 import Link from 'next/link';
 
+
 const Home: NextPage = () => {
   return (
     <div>
@@ -17,6 +18,15 @@ const Home: NextPage = () => {
 
       <main className='text-gray-700'>
         <div id='firstView' className='w-full'>
+          <video 
+            loop
+            muted
+            autoPlay
+            style={{
+              width: "100%",
+            }}>
+            <source src={"C0129.mp4"} type="video/mp4" />
+          </video>
         </div>
         <div className='w-9/12 m-auto font-gothic mt-20'>
           <div className='flex'>
@@ -60,12 +70,12 @@ const Home: NextPage = () => {
             <h1 className='text-2xl font-bold mb-6 '>PROJECTS</h1>
               <div className='flex'>
                 <div className='w-6/12 '>
-                <Img src="/AnyConv.com__IMG_6691.webp" alt="" width={500} height={300} />
+                <Img src="/AnyConv.com__IMG_6691.webp" alt="" width={500} height={300} className="hover:opacity-50" />
                   <h3 className='text-lg font-bold'>人狼コロシアム</h3>
                   <p className='text-sm'>高校の休み時間を取り戻すために 生まれたボードゲーム</p>
                 </div>
                 <div className='w-6/12 '>
-                <Img src="/DSC02957.JPG" alt="" width={500} height={300}/>
+                <Img src="/AnyConv.com__IMG_0164.webp" alt="" width={500} height={300} className="hover:opacity-50"/>
                   <h3 className='text-lg font-bold'>青春奪還作戦</h3>
                   <p className='text-sm'>高校を舞台にした全国キャリアイベント</p>
                 </div>
@@ -73,12 +83,12 @@ const Home: NextPage = () => {
             
               <div className='flex mt-14'>
                 <div className='w-6/12 '>
-                <Img src="/DSC02957.JPG" alt="" width={500} height={300}/>
+                <Img src="/DSC02957.JPG" alt="" width={500} height={300} className="hover:opacity-50"/>
                   <h3 className='text-lg font-bold'>屋台プロジェクト</h3>
                 <p className='text-sm'>あたたかいを届ける屋台</p>
                 </div>
                 <div className='w-6/12 '>
-                <Img src="/DSC02957.JPG" alt="" width={500} height={300}/>
+                <Img src="/AnyConv.com__S__6185130.webp" alt="" width={500} height={300} className="hover:opacity-50"/>
                   <h3 className='text-lg font-bold'>サンタ屋</h3>
                 <p className='text-sm'>みんなが幸せなクリスマスを</p>
                 </div>

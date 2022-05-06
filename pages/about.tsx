@@ -1,6 +1,6 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import Image from 'next/image'
+import Img from 'next/image'
 import Pertoner from '../components/Pertoner.js';
 import Contactbtn from '../components/Contactbtn.js';
 import Link from 'next/link';
@@ -33,7 +33,7 @@ const Home: NextPage = () => {
             私たちは学生のリアルタイムにコミットした企業です。 学生にわかりやすくためになる「教育」事業と、 学生がおもしろくたのしめる「エンタメ」事業と、 学生に求められる「ブランディング」事業を提供しています。
           </p>
           <div className='flex mt-20'>
-            <div className='w-7/12 text-lg'>
+            <div className='w-7/12 text-md'>
               <p className='mb-7'>
                 自分のやりたいことは、やればいいってこと 自分の好きなことは、やればいいってこと そして、そんなこと言われなくても分かってるってこと。</p>
 
@@ -52,7 +52,7 @@ const Home: NextPage = () => {
               <p>『好きなことを好きだと言える社会へ』</p>
             </div>
             <div className='w-5/12'>
-
+              <Img src="/AnyConv.com__threeValue.webp" width={850} height={700}></Img>
             </div>
           </div>
             <div className='mt-20'>

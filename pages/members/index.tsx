@@ -2,6 +2,7 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 import Member from '../../components/Member'
+import Link from 'next/link'
 
 const Home: NextPage = () => {
   return (
@@ -17,7 +18,7 @@ const Home: NextPage = () => {
           <h1 className='mt-24 mb-12 text-4xl font-bold text-center'>ALL MEMBER</h1>
         <ul className="  
  lg:grid lg:grid-cols-3 lg:flex-wrap">
-            <Member />
+            <Link href={"members/1"}><a><Member /></a></Link>
             <Member />
             <Member />
             <Member />

@@ -18,7 +18,7 @@ const Home: NextPage = () => {
         <div className=' grid grid-cols-2 gap-4'>
           
           <div className='  mb-12'>
-            <Link href="projects/${props.title}"><a>
+            <Link href="projects/jinkoro"><a>
             <Img src="/DSC02957.JPG" className='w-full' width={600} height={330} ></Img>
             <div className=' grid grid-cols-2 gap-2'>
               <Img src="/DSC02957.JPG" className='w-full' width={600} height={330} ></Img>
