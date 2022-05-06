@@ -60,7 +60,7 @@ const Home: NextPage = () => {
             <h1 className='text-2xl font-bold mb-6 '>PROJECTS</h1>
               <div className='flex'>
                 <div className='w-6/12 '>
-                  <Img src="/DSC02957.JPG" alt="" width={500} height={300} />
+                <Img src="/AnyConv.com__IMG_6691.webp" alt="" width={500} height={300} />
                   <h3 className='text-lg font-bold'>人狼コロシアム</h3>
                   <p className='text-sm'>高校の休み時間を取り戻すために 生まれたボードゲーム</p>
                 </div>
