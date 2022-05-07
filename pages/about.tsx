@@ -16,24 +16,24 @@ const Home: NextPage = () => {
       </Head>
 
       <main>
-        <div className='w-9/12 m-auto font-gothic'>
-          <h1 className='text-6xl font-bold my-16 leading-relaxed'>THE STUDENT
-            <br  />COMPANY</h1>
+        <div className='w-10/12 lg:w-9/12 m-auto font-gothic'>
+          <h1 className=' text-4xl font-bold my-16 leading-normal  lg:text-6xl lg:leading-relaxed'>THE STUDENT
+            <br className=''  />COMPANY</h1>
           
-          <p className='text-2xl  leading-relaxed font-semibold'>
+          <p className='text-lg lg:text-2xl  leading-relaxed font-semibold'>
             『TRYBE Inc.は学生起業である。』
           </p>
-          <p className='text-xl mt-2 mb-8 leading-relaxed font-medium'>
+          <p className='text-md lg:text-xl mt-2 mb-8 leading-relaxed font-medium'>
             2020年12月、関西の6大学の学生が集まり起業しました。 プロジェクトメンバーには多様な学生を巻き込み、 関西だけでなく、関東にも活動の幅を広げています。
           </p>
-          <p className='text-2xl  leading-relaxed font-semibold'>
+          <p className='text-lg lg:text-2xl  leading-relaxed font-semibold'>
             『TRYBE Inc.は学生企業である。』
           </p>
-          <p className='text-xl mt-2 mb-8 leading-relaxed font-medium'>
+          <p className='text-md lg:text-xl mt-2 mb-6 lg:mb-8 leading-relaxed font-medium'>
             私たちは学生のリアルタイムにコミットした企業です。 学生にわかりやすくためになる「教育」事業と、 学生がおもしろくたのしめる「エンタメ」事業と、 学生に求められる「ブランディング」事業を提供しています。
           </p>
-          <div className='flex mt-20'>
-            <div className='w-7/12 text-md'>
+          <div className='flex lg:mt-20  lg:flex-row flex-col-reverse'>
+            <div className='lg:w-7/12 text-md'>
               <p className='mb-7'>
                 自分のやりたいことは、やればいいってこと 自分の好きなことは、やればいいってこと そして、そんなこと言われなくても分かってるってこと。</p>
 
@@ -51,14 +51,14 @@ const Home: NextPage = () => {
 
               <p>『好きなことを好きだと言える社会へ』</p>
             </div>
-            <div className='w-5/12'>
+            <div className='lg:w-5/12 mb-16'>
               <Img src="/AnyConv.com__threeValue.webp" width={850} height={700}></Img>
             </div>
           </div>
             <div className='mt-20'>
-              <h1 className='text-center text-3xl'>Profile</h1>
-            <table className='w-10/12 m-auto mt-10'>
-                <tr className='py-5'>
+              <h1 className='text-center text-3xl '>Profile</h1>
+            <table className='text-sm w-full lg:w-10/12 m-auto mt-10 '>
+                <tr className='py-5 '>
                 <th className='border-b-2 border-black py-4'>会社名</th>
                 <td className='text-center border-b border-red'>TRYBE Inc.（株式会社トライブ）</td>
               </tr>
@@ -89,7 +89,7 @@ const Home: NextPage = () => {
               </tr>
 
               <tr className=''>
-                <th className='border-b-2 border-black py-4'>アクセス</th>
+                <th className='border-b-2 border-black py-4'>住所</th>
                 <td className='text-center border-b border-red'> 〒577-0027 大阪府東大阪市新家中町5-29 TNK base </td>
               </tr>
               
