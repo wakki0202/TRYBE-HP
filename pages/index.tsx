@@ -22,6 +22,7 @@ const Home: NextPage = () => {
             loop
             muted
             autoPlay
+            playsInline
             style={{
               width: "100%",
             }}>
