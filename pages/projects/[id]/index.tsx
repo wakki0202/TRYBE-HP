@@ -4,10 +4,14 @@ import Head from 'next/head'
 import Img from 'next/image'
 import Link from 'next/link'
 
+
+
 const Title: React.FC = () => {
+  
+  const router = useRouter();
   return (
     <div className='w-8/12 m-auto'>
-      <h1 className='font-bold text-3xl pt-16 pb-2'>人狼コロシアム</h1>
+      <h1 className='font-bold text-3xl pt-16 pb-2'>{router.query.title}</h1>
       <h3>高校の休み時間を取り戻すために生まれたボードゲーム</h3>
       <div className='flex pt-24'>
         <div className=' w-2/12 '>

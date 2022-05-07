@@ -28,19 +28,19 @@ const Home: NextPage = () => {
             <source src={"C0129.mp4"} type="video/mp4" />
           </video>
         </div>
-        <div className='w-9/12 m-auto font-gothic mt-20'>
-          <div className='flex'>
-            <div className='w-4/12'><h1 className='text-2xl font-bold'>WHO WE ARE</h1></div>
-            <div className='w-8/12'><h1 className='text-2xl font-bold mb-2'>『TRYBE Inc.は学生起業である。』</h1>
+        <div className='w-10/12 lg:w-9/12 m-auto font-gothic mt-20'>
+          <div className='lg:flex'>
+            <div className='lg:w-4/12 mb-10' ><h1 className='text-2xl font-bold'>WHO WE ARE</h1></div>
+            <div className='lg:w-8/12'><h1 className='text-2xl font-bold mb-2'>『TRYBE Inc.は学生起業である。』</h1>
               <p className='line-relaxed'>
                 2020年12月、関西の6大学の学生が集まり起業しました。 プロジェクトメンバーには多様な学生を巻き込み、 関西だけでなく、関東にも活動の幅を広げています。</p>
               <h1 className='text-2xl font-bold mb-2 mt-8'>『TRYBE Inc.は学生企業である。』</h1>
               <p className='line-relaxed'>
                 私たちは学生のリアルタイムにコミットした企業です。 学生にわかりやすくタメになる「教育」事業と、 学生がおもしろくたのしめる「クリエイティブ」事業と、 学生に求められる「ブランディング」事業を提供しています。</p></div>
           </div>
-          <div className='flex mt-20'>
-            <div className='w-4/12'><h1 className='text-2xl font-bold'>OUR SERVICE</h1></div>
-            <div className='w-8/12'>
+          <div className='lg:flex mt-20'>
+            <div className='lg:w-4/12  mb-10'><h1 className='text-2xl font-bold'>OUR SERVICE</h1></div>
+            <div className='lg:w-8/12'>
               
               <h1 className='text-2xl font-bold mb-5 '>
                 <span className='border-b-2 border-black'>教育</span>

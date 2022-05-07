@@ -7,10 +7,6 @@ type Project = {
   category2: string
 }
 
-type ProjectContents = {
-  title: string
-}
-
 
 const ProjectCard = (props: Project) => (
     
