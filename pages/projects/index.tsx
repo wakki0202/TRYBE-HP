@@ -34,7 +34,7 @@ const Home: NextPage = () => {
         
           
         <div >
-          <div className='grid grid-cols-2 gap-2'>
+          <div className='grid lg:grid-cols-2 gap-2'>
             {Projects.map((project) => {
               const projectInfo = { id: project.id, title: project.title };
               return (
