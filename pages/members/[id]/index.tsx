@@ -21,14 +21,14 @@ const Home: NextPage = () => {
             <Image src="/AnyConv.com__hinata.webp" width={1300} height={750} alt="" className='' />
 
           </div>
-          <div className='flex pb-20 pt-3'>
-            <div className='w-4/12'>
+          <div className='lg:flex pb-20 pt-3'>
+            <div className='lg:w-4/12'>
               <h1 className='font-extrabold text-2xl'>山口 陽</h1>
               <h2 className='font-light text-xl'>Hinata Yamaguchi</h2>
-              <p className='pt-8 text-sm font-bold'>代表/企画屋</p>
+              <p className='pt-4 pb-8 lg:pb-0 lg:pt-8 text-sm font-bold'>代表/企画屋</p>
             </div>
-            <div className='w-8/12'>
-              <p className='text-xs  leading-relaxed'>1983年生まれ。鳥取県出身。
+            <div className='lg:w-8/12'>
+              <p className='text-xs  leading-relaxed pb-3'>1983年生まれ。鳥取県出身。
                 演劇活動を経たのち、2012年より独学で映像製作をスタート。
                 「仕込みiPhone」（2013年）動画がYouTubeで300万回以上再生され、国内外のメディアで取り上げられた。
                 以降は、『ジェット侍』『充電ラブストーリー（篠崎愛）』『鳥取県カニ動画』『神の手』などのCM監督や、乃木坂46のプロモーションビデオ、映画『いぬやしき』の一部映像ディレクションなどを手がけている。
