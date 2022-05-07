@@ -13,7 +13,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-        <main className='font-gothic'>
+      <main className='font-body'>
           <div className='w-10/12 m-auto'>
             <h1 className=' text-3xl lg:text-4xl mt-20 font-bold'>Contact.</h1>
             <span className='text-1xl'>お問い合わせ</span>

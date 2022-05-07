@@ -80,7 +80,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className='font-gothic mt-24 mb-20 w-9/12 m-auto'>
+      <main className='font-body mt-24 mb-20 w-9/12 m-auto'>
         <h1 className='text-center mb-12 text-4xl font-bold'>ALL PROJECT</h1>
         
           

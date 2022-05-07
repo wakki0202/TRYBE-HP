@@ -14,7 +14,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className='font-gothic bg-gray-100'>
+      <main className='font-body bg-gray-100'>
         <div className='w-8/12 m-auto'>
           <div className='text-center pt-20 w-full'>
             <h1 className='text-5xl font-black pb-6'>PLANNER</h1>
