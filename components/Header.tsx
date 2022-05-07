@@ -26,7 +26,7 @@ const solutions = [
     icon: UserGroupIcon,
   },
   {
-    name: 'Acsess',
+    name: 'Contact',
     description: 'Build strategic funnels that will drive your customers to convert',
     href: '/contact',
     icon: MailIcon,
