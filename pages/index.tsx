@@ -28,7 +28,7 @@ const Home: NextPage = () => {
             <source src={"C0129.mp4"} type="video/mp4" />
           </video>
         </div>
-        <div className='w-10/12 lg:w-9/12 m-auto font-gothic mt-20'>
+        <div className='w-10/12 lg:w-9/12 m-auto  mt-20'>
           <div className='lg:flex'>
             <div className='lg:w-4/12 mb-10' ><h1 className='text-2xl font-bold'>WHO WE ARE</h1></div>
             <div className='lg:w-8/12'><h1 className='text-lg lg:text-2xl font-bold mb-2'>『TRYBE Inc.は学生起業である。』</h1>

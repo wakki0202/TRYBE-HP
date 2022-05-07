@@ -6,9 +6,28 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        NSJ: ["Noto Sans Japanese"] ,
-        gothic: ['YuGothic',
-        'Yu Gothic']
+        NSJ: ["Noto Sans JP"] ,
+        gothic: [
+          'YuGothic',
+          'Yu Gothic'],
+        Inter: ["Inter"],
+        body: [
+
+          'YuGothic',
+          'Yu Gothic',
+          'Avenir',
+          'Helvetica Neue',
+          'Helvetica',
+          'Arial',
+          'Hiragino Sans',
+          'ヒラギノ角ゴシック',
+          'メイリオ',
+          'Meiryo',
+          'ＭＳ Ｐゴシック',
+          'MS PGothic',
+          'sans-serif'
+        ]
+
       },
       animation: {
         slideIn: "slideIn 1s ease-in forwards",
