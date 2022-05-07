@@ -39,7 +39,7 @@ const Home: NextPage = () => {
               const projectInfo = { id: project.id, title: project.title };
               return (
                 
-                  <div className='  mb-12'>
+                  <div key={project.id} className='  mb-12'>
                 <Link as={`/projects/${project.id}`}
                 href={{ pathname: `/projects/[id]`, query: projectInfo }} ><a>
                   <Img src="/DSC02957.JPG" className='w-full' width={600} height={330} ></Img>
