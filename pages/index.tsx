@@ -30,45 +30,47 @@ const Home: NextPage = () => {
           </video>
         </div>
         <div className='w-10/12 lg:w-9/12 m-auto  mt-20'>
-          <div className='lg:flex'>
-            <div className='lg:w-4/12 mb-10' ><h1 className='text-2xl font-bold'>WHO WE ARE</h1></div>
-            <div className='lg:w-8/12'><h1 className='text-lg lg:text-2xl font-bold mb-2'>『TRYBE Inc.は学生起業である。』</h1>
+          <div className=''>
+            <div className=' mb-10 lg:mb-14' ><h1 className='text-2xl font-bold lg:text-center lg:text-4xl'>WHO WE ARE</h1></div>
+            <div className=''><h1 className='text-lg lg:text-2xl font-bold mb-2'>『TRYBE Inc.は学生起業である。』</h1>
               <p className='line-relaxed lg:text-lg text-sm'>
                 2020年12月、関西の6大学の学生が集まり起業しました。 プロジェクトメンバーには多様な学生を巻き込み、 関西だけでなく、関東にも活動の幅を広げています。</p>
               <h1 className='text-lg lg:text-2xl font-bold mb-2 mt-8'>『TRYBE Inc.は学生企業である。』</h1>
               <p className='line-relaxed lg:text-lg text-sm'>
                 私たちは学生のリアルタイムにコミットした企業です。 学生にわかりやすくタメになる「教育」事業と、 学生がおもしろくたのしめる「クリエイティブ」事業と、 学生に求められる「ブランディング」事業を提供しています。</p></div>
           </div>
-          <div className='lg:flex mt-20'>
-            <div className='lg:w-4/12  mb-10'><h1 className='text-2xl font-bold'>OUR SERVICE</h1></div>
-            <div className='lg:w-8/12'>
-              
-              <h1 className='text-lg lg:text-2xl font-bold mb-5 '>
+          <div className='mt-20 lg:mt-32'>
+            <div className=' mb-10'><h1 className='text-2xl lg:text-4xl font-bold lg:text-center'>OUR SERVICE</h1></div>
+            <div className='lg:flex'>
+              <div className='lg:w-3/12 lg:m-auto'>
+                <h1 className='text-lg lg:text-2xl font-bold mb-5 mt-8 lg:text-center'>
                 <span className='border-b-2 border-black'>教育</span>
               </h1>
               <p className='line-relaxed lg:text-lg text-sm'>
                 クリエイティブの力で、社会のあらゆる変化と挑戦を推進していく。 GOは、広告領域に留まらず事業全体をクリエイティブの力で成長・進化していきます。 売上や企業価値だけでなく、事業を通して社会・顧客・生活者の幸福を追求します。
               </p>
-              
-              <h1 className='text-lg lg:text-2xl font-bold mb-5 mt-8'>
+              </div>
+              <div className='lg:w-3/12 lg:m-auto'>
+                <h1 className='text-lg lg:text-2xl font-bold mb-5 mt-8 lg:text-center'>
                 <span className='border-b-2 border-black'>クリエイティブ</span>
               </h1>
               <p className='line-relaxed lg:text-lg text-sm'>
                 クリエイティブの力で、社会のあらゆる変化と挑戦を推進していく。 GOは、広告領域に留まらず事業全体をクリエイティブの力で成長・進化していきます。 売上や企業価値だけでなく、事業を通して社会・顧客・生活者の幸福を追求します。
               </p>
-
-              <h1 className='text-lg lg:text-2xl font-bold mb-5 mt-8'>
+              </div>
+              <div className='lg:w-3/12 lg:m-auto'>
+                <h1 className='text-lg lg:text-2xl font-bold mb-5 mt-8 lg:text-center'>
                 <span className='border-b-2 border-black'>ブランディング</span>
               </h1>
               <p className='line-relaxed lg:text-lg text-sm'>
                 クリエイティブの力で、社会のあらゆる変化と挑戦を推進していく。 GOは、広告領域に留まらず事業全体をクリエイティブの力で成長・進化していきます。 売上や企業価値だけでなく、事業を通して社会・顧客・生活者の幸福を追求します。
               </p>
-            
+              </div>
             </div>
           </div>
 
           <div className=' mt-40 '>
-            <h1 className='text-2xl font-bold mb-6 '>PROJECTS</h1>
+            <h1 className='text-2xl lg:text-4xl font-bold mb-6 lg:text-center lg:mb-12'>PROJECTS</h1>
             <div className='flex'>
               
                 <div className='w-6/12 '>
@@ -107,11 +109,11 @@ const Home: NextPage = () => {
               </div>
           </div>
           <div className=' mt-40'>
-            <h1 className='text-2xl font-bold mb-6'>OUR CLIENTS</h1>
+            <h1 className='text-2xl font-bold mb-6 lg:text-center lg:mb-12 lg:text-4xl'>OUR CLIENTS</h1>
             <Pertoner />
           </div>
           <div className=' mt-40 text-center mb-20'>
-            <h1 className='text-2xl font-bold text-left mb-8'>CONTACT</h1>
+            <h1 className='text-2xl font-bold text-left mb-8 lg:mb-12 lg:text-center lg:text-4xl'>CONTACT</h1>
             <Contactbtn />
           </div>
         </div>
