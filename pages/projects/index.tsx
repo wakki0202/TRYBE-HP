@@ -22,7 +22,8 @@ const Home: NextPage = () => {
       result: "活気を取り戻す休み時間",
       resultContent: "休み時間になると、一つの机の周りにクラスメイトが集まり、「人狼コロシアム」を取り囲んで会話が飛び交うようになりました。また、仲の良い他のクラスの生徒たちも、昼休みになると一つの教室に集まり、人狼コロシアムを遊ぶこともありました。手にあるのはスマホ、見つめる先もスマホだった光景が、人狼コロシアムの制作によって手にはカード、見つめる先には駆け引きを楽しむクラスメイトに変わって行きました。発展した世の中に、あえてアナログな体験を提供することで、活気溢れる大切な休み時間を体現することができました。",
       result2: "若者の圧倒的支持によりクラウドファンディング達成",
-      resultContent2: "クラウドファンディングで約200万円の資金調達、453人の方に支援していただきました。453人の総支援者のうち、10代、20代だけで292人という、若者からの支援が過半数を占めており、リリース以降も様々なSNSを通して、「人狼コロシアム」の体験の様子を多くの方が投稿してくださいました。またイベント出展の際には、「かっこよさ」「高級感」などの一貫性のあるブランディングを行うことで、若者からの支持を集めています。"
+      resultContent2: "クラウドファンディングで約200万円の資金調達、453人の方に支援していただきました。453人の総支援者のうち、10代、20代だけで292人という、若者からの支援が過半数を占めており、リリース以降も様々なSNSを通して、「人狼コロシアム」の体験の様子を多くの方が投稿してくださいました。またイベント出展の際には、「かっこよさ」「高級感」などの一貫性のあるブランディングを行うことで、若者からの支持を集めています。",
+      image: "AnyConv.com__IMG_6691.webp"
     },
     
     {
@@ -98,7 +99,8 @@ const Home: NextPage = () => {
                 result: project.result,
                 resultContent: project.resultContent,
                 result2: project.result2,
-                resultContent2: project.resultContent2
+                resultContent2: project.resultContent2,
+                image: project.image
 
 
               };
@@ -107,7 +109,7 @@ const Home: NextPage = () => {
                   <div key={project.id} className='  mb-12'>
                 <Link as={`/projects/${project.id}`}
                 href={{ pathname: `/projects/[id]`, query: projectInfo }} ><a>
-                  <Img src="/DSC02957.JPG" className='w-full' width={600} height={330} ></Img>
+                      <Img src={`/${project.image}`} className='w-full' width={600} height={330} ></Img>
                   <div className=' grid grid-cols-2 gap-2'>
                     <Img src="/DSC02957.JPG" className='w-full' width={600} height={330} ></Img>
                     <Img src="/DSC02957.JPG" className='w-full' width={600} height={330} ></Img>

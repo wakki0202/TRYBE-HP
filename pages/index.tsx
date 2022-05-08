@@ -69,17 +69,25 @@ const Home: NextPage = () => {
 
           <div className=' mt-40 '>
             <h1 className='text-2xl font-bold mb-6 '>PROJECTS</h1>
-              <div className='flex'>
+            <div className='flex'>
+              
                 <div className='w-6/12 '>
+                <Link href="/projects/[id]"><a >
                 <Img src="/AnyConv.com__IMG_6691.webp" alt="" width={500} height={300} className="hover:opacity-50" />
                   <h3 className='text-lg font-bold'>人狼コロシアム</h3>
                   <p className='text-sm'>高校の休み時間を取り戻すために 生まれたボードゲーム</p>
+                </a></Link>
                 </div>
+              
+              
                 <div className='w-6/12 '>
+                <Link href="/projects/2"><a >
                 <Img src="/AnyConv.com__IMG_0164.webp" alt="" width={500} height={300} className="hover:opacity-50"/>
                   <h3 className='text-lg font-bold'>青春奪還作戦</h3>
                   <p className='text-sm'>高校を舞台にした全国キャリアイベント</p>
-                </div>
+                </a></Link>
+              </div>
+              
               </div>
             
               <div className='flex mt-14'>

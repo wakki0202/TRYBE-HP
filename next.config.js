@@ -9,6 +9,7 @@ module.exports = nextConfig
 module.exports = {
   experimental: {
     optimizeFonts: true,
+    trailingSlash: true
   },
 };
 

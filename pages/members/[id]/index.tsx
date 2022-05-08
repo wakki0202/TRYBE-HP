@@ -4,8 +4,10 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Link from 'next/link';
 import "remixicon/fonts/remixicon.css";
+import { useRouter } from 'next/router'
 
 const Home: NextPage = () => {
+  const router = useRouter();
   return (
     <div className=''>
       <Head>
@@ -15,25 +17,24 @@ const Home: NextPage = () => {
       </Head>
 
       <main className='font-body bg-gray-100'>
-        <div className='w-8/12 m-auto'>
+        <div className='w-10/12 lg:w-8/12 m-auto'>
           <div className='text-center pt-20 w-full'>
-            <h1 className='text-5xl font-black pb-6'>PLANNER</h1>
-            <Image src="/AnyConv.com__hinata.webp" width={1300} height={750} alt="" className='' />
+            <h1 className='text-3xl lg:text-5xl font-black pb-6'>PLANNER</h1>
+            <Image src={`/${router.query.image}`} width={1300} height={750} alt="" className='' />
 
           </div>
           <div className='lg:flex pb-20 pt-3'>
             <div className='lg:w-4/12'>
-              <h1 className='font-extrabold text-2xl'>山口 陽</h1>
-              <h2 className='font-light text-xl'>Hinata Yamaguchi</h2>
-              <p className='pt-4 pb-8 lg:pb-0 lg:pt-8 text-sm font-bold'>代表/企画屋</p>
+              <h1 className='font-extrabold text-2xl'>{router.query.name}</h1>
+              <h2 className='font-light text-xl'>{ router.query.nameRoma }</h2>
+              <p className='pt-4 pb-8 lg:pb-0 lg:pt-8 text-sm font-bold'>{router.query.position}</p>
             </div>
             <div className='lg:w-8/12'>
-              <p className='text-xs  leading-relaxed pb-3'>1983年生まれ。鳥取県出身。
-                演劇活動を経たのち、2012年より独学で映像製作をスタート。
-                「仕込みiPhone」（2013年）動画がYouTubeで300万回以上再生され、国内外のメディアで取り上げられた。
-                以降は、『ジェット侍』『充電ラブストーリー（篠崎愛）』『鳥取県カニ動画』『神の手』などのCM監督や、乃木坂46のプロモーションビデオ、映画『いぬやしき』の一部映像ディレクションなどを手がけている。
-                シュールかつコメディ要素の高いドラマや、フェイクドキュメント・パロディの手法を多く取り入れた作品が特徴。</p>
-              <i className="ri-twitter-fill text-xl pt-5"></i>
+              <p className='text-xs lg:text-sm  leading-relaxed font-bold pb-6'>{router.query.introduction}</p>
+              <p className='text-xs lg:text-sm  leading-relaxed font-bold pb-6'>{router.query.achievement}</p>
+              <p className='hidden lg:block text-xs  leading-relaxed pb-6 font-bold'>{router.query.tel} / {router.query.email}</p>
+              <p className='lg:hidden text-xs  leading-relaxed  font-bold'>{router.query.tel}</p>
+              <p className='lg:hidden text-xs  leading-relaxed pb-6 font-bold'>{router.query.email}</p>
             </div>
           </div>
           <p></p>

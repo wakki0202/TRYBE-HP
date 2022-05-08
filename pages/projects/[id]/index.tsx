@@ -12,8 +12,9 @@ const Title: React.FC = () => {
   return (
     <div className='w-10/12 lg:w-8/12 m-auto'>
       <h1 className='font-bold text-3xl pt-16 pb-2'>{router.query.title}</h1>
-      <h3>{router.query.subTitle}</h3>
-      <div className='pt-12 lg:flex lg:pt-24'>
+      <h3 className='pb-8'>{router.query.subTitle}</h3>
+      <Img src={"/AnyConv.com__IMG_6691.webp"} width={900} height={500}></Img>
+      <div className='pt-12 lg:flex lg:pt-10'>
         <div className=' lg:w-2/12 '>
           <h1 className='text-4xl pb-2 lg:pb-0 lg:text-2xl font-bold text-gray-400'>Issue</h1>
         </div>
@@ -26,14 +27,15 @@ const Title: React.FC = () => {
         <div className=' lg:w-2/12 '>
           <h1 className='text-4xl pb-2 lg:pb-0 lg:text-2xl font-bold text-gray-400'>Solution</h1>
         </div>
-        <div className=' lg:w-10/12'>
+        <div className='pb-14 lg:w-10/12'>
           <h1 className='text-xl font-bold pb-5'>{router.query.solution}</h1>
           <p className='text-md leading-relaxed'>{router.query.solutionContent}</p>
         </div>
       </div>
+      <Img src={"/AnyConv.com__IMG_6691.webp"} width={900} height={500}></Img>
 
 
-      <div className='lg:flex pt-24'>
+      <div className='lg:flex pt-10'>
 
         <div className=' lg:w-2/12 '>
           <h1 className=' text-2xl font-bold text-gray-400'>Result</h1>
