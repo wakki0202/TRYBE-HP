@@ -13,26 +13,31 @@ const Title: React.FC = () => {
     <div className='w-10/12 lg:w-8/12 m-auto'>
       <h1 className='font-bold text-3xl pt-16 pb-2'>{router.query.title}</h1>
       <h3 className='pb-8'>{router.query.subTitle}</h3>
-      <Img src={"/AnyConv.com__IMG_6691.webp"} width={900} height={500}></Img>
-      <div className='pt-12 lg:flex lg:pt-10'>
+
+      <Img src={`/${router.query.image1}`} width={900} height={500}></Img>
+
+      <div className='pt-12 lg:flex lg:pt-14'>
         <div className=' lg:w-2/12 '>
           <h1 className='text-4xl pb-2 lg:pb-0 lg:text-2xl font-bold text-gray-400'>Issue</h1>
         </div>
         <div className=' lg:w-10/12'>
           <h1 className='text-xl font-bold pb-5'>{router.query.issue}</h1>
-          <p className='text-md leading-relaxed'>{router.query.issueContent}</p>
+          <p className='text-md leading-relaxed pb-24'>{router.query.issueContent}</p>
         </div>
       </div>
-      <div className='lg:flex pt-24'>
+
+      <Img src={`/${router.query.image2}`} width={900} height={500}></Img>
+
+      <div className='lg:flex pt-10'>
         <div className=' lg:w-2/12 '>
           <h1 className='text-4xl pb-2 lg:pb-0 lg:text-2xl font-bold text-gray-400'>Solution</h1>
         </div>
         <div className='pb-14 lg:w-10/12'>
           <h1 className='text-xl font-bold pb-5'>{router.query.solution}</h1>
-          <p className='text-md leading-relaxed'>{router.query.solutionContent}</p>
+          <p className='text-md leading-relaxed pb-24'>{router.query.solutionContent}</p>
         </div>
       </div>
-      <Img src={"/AnyConv.com__IMG_6691.webp"} width={900} height={500}></Img>
+      <Img src={`/${router.query.image2}`} width={900} height={500}></Img>
 
 
       <div className='lg:flex pt-10'>
@@ -45,7 +50,7 @@ const Title: React.FC = () => {
           <h1 className='text-xl font-bold pb-5'>{router.query.result}</h1>
           <p className='text-md leading-relaxed'>{router.query.resultContent}</p>
 
-          <h1 className='text-xl font-bold pb-5 pt-7'>{router.query.result2}</h1>
+          <h1 className='text-xl font-bold pb-5 pt-14'>{router.query.result2}</h1>
           <p className='text-md leading-relaxed'>{router.query.resultContent2}</p>
         </div>
 
