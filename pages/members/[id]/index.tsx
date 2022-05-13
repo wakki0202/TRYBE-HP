@@ -7,7 +7,12 @@ import "remixicon/fonts/remixicon.css";
 import { useRouter } from 'next/router'
 
 const Home: NextPage = () => {
+
+
+
   const router = useRouter();
+  const { id
+} = router.query
   return (
     <div className=''>
       <Head>
