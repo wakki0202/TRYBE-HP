@@ -29,7 +29,7 @@ const TestCarousel = () => {
       {images.map((src: string, index: number) => {
         return (
           <SwiperSlide key={`${index}`}>
-            <div className="mx-5 my-5 hover:opacity-50">
+            <div className="mx-3 my-5 hover:opacity-50">
               <Image
                 src={src}
                 layout="responsive"

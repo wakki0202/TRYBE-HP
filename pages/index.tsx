@@ -144,6 +144,13 @@ const Home: NextPage = () => {
             <Service />
           </section>
 
+          <section id="member">
+          <div className='mt-20 lg:mt-32 w-12/12'>
+            <h1 className='text-2xl font-bold mb-6 text-center lg:mb-12 lg:text-4xl'>MEMBER</h1>
+            <Img src="/AnyConv.com__F38C102E-8F38-483F-82F5-0298ECA82882-42833-0000072A15617AB1.webp" width={1800} height={1000}></Img>
+            <div className="pt-5 font-bold text-3xl  text-right"><Link href={"members"}><a className=''>All Member ＞</a></Link></div>
+          </div>
+          </section>
 
 
           <div className=' mt-40 w-10/12 lg:w-9/12 m-auto'>
