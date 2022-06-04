@@ -6,6 +6,7 @@ import Pertoner from '../components/Pertoner.js';
 import Service from '../components/Service';
 import About from '../components/About';
 import TestCarousel from '../components/Slider';
+import TestCarousel2 from '../components/Slider2';
 import Contactbtn from '../components/Contactbtn';
 import Link from 'next/link';
 
@@ -131,8 +132,11 @@ const Home: NextPage = () => {
                 </div>
               </div>
           </div>
-          <div className='mt-20'>
+          <div className='mt-20 hidden lg:block'>
             <TestCarousel />
+          </div>
+          <div className='mt-5 lg:hidden'>
+            <TestCarousel2 />
           </div>
           </section>
 

@@ -21,8 +21,8 @@ const Home: NextPage = () => {
       resultContent: "休み時間になると、一つの机の周りにクラスメイトが集まり、「人狼コロシアム」を取り囲んで会話が飛び交うようになりました。また、仲の良い他のクラスの生徒たちも、昼休みになると一つの教室に集まり、人狼コロシアムを遊ぶこともありました。手にあるのはスマホ、見つめる先もスマホだった光景が、人狼コロシアムの制作によって手にはカード、見つめる先には駆け引きを楽しむクラスメイトに変わって行きました。発展した世の中に、あえてアナログな体験を提供することで、活気溢れる大切な休み時間を体現することができました。",
       result2: "若者の圧倒的支持によりクラウドファンディング達成",
       resultContent2: "クラウドファンディングで約200万円の資金調達、453人の方に支援していただきました。453人の総支援者のうち、10代、20代だけで292人という、若者からの支援が過半数を占めており、リリース以降も様々なSNSを通して、「人狼コロシアム」の体験の様子を多くの方が投稿してくださいました。またイベント出展の際には、「かっこよさ」「高級感」などの一貫性のあるブランディングを行うことで、若者からの支持を集めています。",
-      image1: "AnyConv.com__IMG_6691.webp",
-      image2: "AnyConv.com__IMG_6691.webp",
+      image1: "jinrotop1.jpg",
+      image2: "jinrotop2.JPG",
       image3: "AnyConv.com__IMG_6691.webp",
       image4: "AnyConv.com__IMG_6691.webp",
       video: "C0129.mp4"
@@ -37,8 +37,8 @@ const Home: NextPage = () => {
       resultContent: "青春奪還作戦を通して、起業の道に進む人、今まで毛嫌いしていたはずのマーケティングにシフトする人、元々目指していた進路により確固たる決意を持つ人、将来やりたいことが決まった人など、多くの学生の人生に、少しのきっかけを与えることができました。イベント参加者、運営としての関わりだけで終わらず、起業に進む人や興味がある人に対しては教育環境の提供をしたり、就活に向けて自分の武器を作りたい人に対しては、プロジェクトごとにメンバーとしてジョインしてもらうなど、きっかけや機会を与えて終わるのではなく、その後も共に成長していくための取り組みに力を入れています。",
       result2: "TikTokでも大反響",
       resultContent2: "TikTokに青春奪還作戦のリール動画を投稿したところ、総視聴回数60万再生、5万4千いいね、350コメント、850共有を記録しました。コメントの内容としては「企画に対しての共感」と「参加表明」の二つが大半を占めております。すでに働いている人、進路に悩む大学生、コロナによって行事が中止になった高校生など、年齢性別に問わず、全国各地での開催を強く希望されております。現段階で大阪で2回開催、そして今後東京と広島で1回ずつ開催予定、その後も全国各地で開催する方針です。",
-      image1: "AnyConv.com__IMG_0164.webp",
-      image2: "AnyConv.com__IMG_0164.webp",
+      image1: "seishuntop-1.jpg",
+      image2: "seishuntop-2.jpg",
       image3: "AnyConv.com__IMG_0164.webp",
       image4: "AnyConv.com__IMG_0164.webp",
       video: "C0129.mp4"
@@ -53,8 +53,8 @@ const Home: NextPage = () => {
       issueContent: "2022年冬、COVID-19の影響で、身も心もあたたかさを失いつつあった。コロナウイルス感染に恐れながら満員電車に揺られ出勤する社会人、理想のキャンパスライフとはかけ離れたオンライン授業、行事ごとがことごとく中止になる高校生活。やるせない感情と、どうしようもならない現状との間に挟まれ、多くの人がそのギャップに疲弊していました。", solution: "「温度」「人」「色」で３度温まる味噌汁屋台", solutionContent: "学生や社会人が帰宅する夕刻に合わせて、温かい味噌汁を販売する屋台を動かしました。寒い日に自動販売機であったかい飲み物を購入した時の、あの「ホッ」とする体験を提供するべく、なんら普通の温かい味噌汁を販売。また１から屋台を制作し、どこか歪で、でもどこか親近感のある空間を作りました。デジタルな社会に包まれる今だからこそ、アナログ感溢れる体験を提供し、また屋台は、オレンジなどの暖色をメインに装飾して、安心感と温かさを演出しました。",
       result: "温かいコミュケーションが飛び交うプラットフォームに",
       resultContent: "仕事帰りの方。SNSを見て駆けつけてくれた学生。貴社の方。ご近所さんとワンちゃん。 今まで会ったことも話したこともない人たちが、味噌汁と屋台を囲んで和気藹々と触れ合う空間がありました。 また味噌汁で使用された屋台は、他の学生や団体が「事業プラットフォーム」として活用しています。 NPO法人KOKOIMAと関西大学人間健康学部のゼミとの共催イベント、ストリートファッションショーの催し企画や、 東大阪市にあるシェアハウスTNKbase主催の、1から無農薬で作った焼き芋の販売や、菜の花を配るプロジェクトなど さまざまな企画や事業のプラットフォームの一つとして確立しました。", result2: "", resultContent2: "",
-      image1: "DSC02957.JPG",
-      image2: "DSC02957.JPG",
+      image1: "misosirutop_1.JPG",
+      image2: "misosirutop_3.JPG",
       image3: "DSC02957.JPG",
       image4: "DSC02957.JPG",
       video: "C0129.mp4"
@@ -80,6 +80,8 @@ const Home: NextPage = () => {
       video: "C0129.mp4"
     }
   ];
+
+
   const Works = [
     {
       id: 1,
@@ -94,7 +96,59 @@ const Home: NextPage = () => {
       image3: "AnyConv.com__IMG_6691.webp",
       image4: "AnyConv.com__IMG_6691.webp",
       video: "C0129.mp4"
-    }
+    },
+    {
+      id: 2,
+      title: "Career Meeting",
+      category1: "Student",
+      category2: "Education",
+      what: "企画・プロモーション",
+      whatContent: "今現在、環境をはじめとした様々な課題や、テクノロジーによる急激な変化と向き合っています。その状況の中でどのように働き、成長していくのかの前に、知らない仕事や世の中の流れを知っておくことが重要だと考えました。将来に向けて積極的にキャリア形成したい学生から、このままでいいのかと思っている学生までが、20代で成長するための一歩を踏み出すきっかけとなるイベントです。大手企業とスタートアップ双方に通じた人事のスペシャリストや、現役インターンや新卒採用でスタートアップの世界に入り活躍する社員の方などを招き、リアルな社会をお伝えしていただきました。TRYBEは「Career Meeting」の企画・プロモーションに携わりました。",
+      image1: "AnyConv.com__IMG_6691.webp",
+      image2: "AnyConv.com__IMG_6691.webp",
+      image3: "AnyConv.com__IMG_6691.webp",
+      image4: "AnyConv.com__IMG_6691.webp",
+      video: "C0129.mp4"
+    },
+    {
+      id: 3,
+      title: "ロボットストリート",
+      category1: "Plannning",
+      category2: "Entertainment",
+      what: "企画・開発・運営",
+      whatContent: "子供たちがテクノロジー体験できる場所として、Gather.Townのバーチャル空間の中で、自分のキャラクターを動かし、秘密の屋上を目指す「ロボットストリート」の企画・開発・運営を行いました。ロボットストリートの中には、脱出ゲーム、⚪︎×クイズ、謎解きなどのコンテンツが用意されており、子供たちがバーチャル空間の中で遊んでる様子が伺えました。その他に、ロボットの操作、プログラミング、電子工作などのワークショップやセミナーなども同時に開催されていました。",
+      image1: "AnyConv.com__IMG_6691.webp",
+      image2: "AnyConv.com__IMG_6691.webp",
+      image3: "AnyConv.com__IMG_6691.webp",
+      image4: "AnyConv.com__IMG_6691.webp",
+      video: "C0129.mp4"
+    },
+    {
+      id: 4,
+      title: "セキスイカルタ",
+      category1: "Plannning",
+      category2: "Entertainment",
+      what: "企画・開発",
+      whatContent: "私たちの生活は積水化学工業様の、環境に配慮し開発された製品に支えられています。 SDGsに大変力を入れてい事業に取り組まれています。そして今後の日本を担っていく小学生に、SDGsそのものやSDGs貢献の重要性などを伝えていきたいと思いました。ですが、小学生はSDGsに触れたこともなければ、興味もない。そんな小学生にSDGsへの貢献について伝えていくことに課題を感じていました。そこで、誰もが経験したことがある、「カルタ」を用いたゲーミフィケーションを通して、小学生にSDGsを分かりやすく楽しんでもらえるようなコンテンツの開発に取り組みました。",
+      image1: "AnyConv.com__IMG_6691.webp",
+      image2: "AnyConv.com__IMG_6691.webp",
+      image3: "AnyConv.com__IMG_6691.webp",
+      image4: "AnyConv.com__IMG_6691.webp",
+      video: "C0129.mp4"
+    },
+    {
+      id: 5,
+      title: "Kids tech EXPO",
+      category1: "Plannning",
+      category2: "Entertainment",
+      what: "企画・運営",
+      whatContent: "プログラミングや電子工作など、テクノロジーを遊びながら学び、子どもたちの夢や自信のきっかけをつくる体験型ワークショップイベントの企画・運営を行いました。クラスター株式会社が企画・開発・運営を行う、バーチャル空間に集まって遊ぶことができるメタバースプラットフォーム「cluster」を使用し、子どもたちが遊ぶことができる企画開発に携わりました。「cluster」内のバーチャル空間と、未来& 先端テクノロジー体験施設「Robo & Peace」内のリアル空間を掛け合わせた、バーチャルとリアルが同時に進行する企画です。 ",
+      image1: "AnyConv.com__IMG_6691.webp",
+      image2: "AnyConv.com__IMG_6691.webp",
+      image3: "AnyConv.com__IMG_6691.webp",
+      image4: "AnyConv.com__IMG_6691.webp",
+      video: "C0129.mp4"
+    },
   ];
   Projects.map((project) => {
     // userの情報
@@ -192,8 +246,8 @@ const Home: NextPage = () => {
                     </video>
                     <Link as={`/works/${work.id}`} href={{ pathname: `/works/[id]`, query: workInfo }} ><a>
                       <div className=' grid grid-cols-2 gap-2 pt-2'>
-                        <Img src={`/${work.image1}`} className='w-full' width={600} height={330} ></Img>
-                        <Img src={`/${work.image2}`} className='w-full' width={600} height={330} ></Img>
+                        <Img src={`/${work.image1}`} className='w-full' width={600} height={450} ></Img>
+                        <Img src={`/${work.image2}`} className='w-full' width={600} height={450} ></Img>
                       </div>
                       <div className="mt-2">
                         <p className="inline text-xs bg-black text-white py-1 px-3 rounded-xl">{work.category1}</p>

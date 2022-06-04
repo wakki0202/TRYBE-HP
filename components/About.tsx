@@ -1,9 +1,8 @@
 import Img from 'next/image';
 const About = () => (
   <div className='mt-32 w-10/12 lg:w-9/12 m-auto font-body'>
-    <h1 className='text-2xl lg:text-4xl font-bold mb-6 lg:text-center lg:mb-12 '>ABOUT</h1>
-    <h1 className=' text-4xl font-bold my-16 leading-normal  lg:text-6xl lg:leading-relaxed'>THE STUDENT
-      <br className='' />COMPANY</h1>
+    <h1 className='text-4xl font-bold mb-6 text-center lg:mb-12 '>ABOUT</h1>
+    <h1 className=' text-2xl font-bold my-16 leading-normal  lg:text-5xl lg:leading-relaxed'>『好き』を好きだと言い続けられる社会へ</h1>
     <p className='text-lg lg:text-2xl  leading-relaxed font-semibold'>
       『TRYBE Inc.は学生起業である。』
     </p>
@@ -28,8 +27,11 @@ const About = () => (
         <p className='mb-7'>君の「好き」ができなくなる その理由を、僕たちが全力でぶっ潰します。</p >
         <p>『好きなことを好きだと言える社会へ』</p>
       </div>
-      <div className='lg:w-5/12 mb-16'>
+      <div className='lg:w-5/12 mb-16 text-center hidden lg:block'>
         <Img src="/AnyConv.com__threeValue.webp" width={850} height={700}></Img>
+      </div>
+      <div className='lg:w-5/12 mb-16 text-center lg:hidden'>
+        <Img src="/AnyConv.com__threeValue.webp" width={600} height={500}></Img>
       </div>
     </div>
   </div>

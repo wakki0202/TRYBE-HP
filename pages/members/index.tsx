@@ -121,7 +121,7 @@ const Home: NextPage = () => {
       name: "畑野悠人",
       nameRoma: "hatano haruto",
       position: "ゲームプランナー",
-      image: "AnyConv.com__hata.webp",
+      image: "hata.gif",
       introduction: "2000年生まれ。 「人狼コロシアム」や「アウトドアボードゲーム」などのボードゲーム・カードゲーム事業を担う。『人生没頭する』をテーマに、誰もが心の底からハマる遊びを日々研究中。自身がカードゲームが大好きであり、今まで遊び込んだ知識経験を活かし、新しい物を生み出していく。また自分の経験に驕らず、市場調査から顧客のリアルの声を汲み取り、ユーザーの目線に立った企画を行う。",
       achievement: "よさこい団体「飛舞人」の15代目代表。「人狼コロシアム」、「アウトドアボードゲーム」の企画。",
       tel: "TEL：080-2278-3755",
@@ -159,7 +159,18 @@ const Home: NextPage = () => {
       achievement: "寺でカプレーゼを作る「寺カプレーゼ」の主催。「青春奪還作戦」企画。 センター試験世界史満点。",
       tel: "",
       email: "Email：i_kawachi@trybe.co.jp"
-    },]
+    },
+    {
+      id: 15,
+      name: "今泉大輝",
+      nameRoma: "Imaizumi taiki",
+      position: "プランナー",
+      image: "taiki.gif",
+      introduction: "2000年生まれ。 客観的なクリティカルシンキングを持つプランナー。話に入り込みすぎないスタンスで常に客観視した意見を持ち合わせ、かつ芸術やアートなどの創作物に日々囲まれ、独自の感性を備えているため、批判的だがどこか真新しいようなアイデアを生み出すことができる。現在は就職活動中。",
+      achievement: "寺でカプレーゼを作る「寺カプレーゼ」の主催。「青春奪還作戦」企画。 センター試験世界史満点。",
+      tel: "080-6927-4020",
+      email: "Email：t_imaizumi@trybe.co.jp"
+    }]
   
   members.map((member) => {
     // memberの情報
