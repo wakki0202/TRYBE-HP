@@ -3,11 +3,57 @@ import Head from 'next/head'
 import Img from 'next/image'
 import styles from '../styles/Home.module.css'
 import Pertoner from '../components/Pertoner.js';
+import Service from '../components/Service';
+import About from '../components/About';
+import TestCarousel from '../components/Slider';
 import Contactbtn from '../components/Contactbtn';
 import Link from 'next/link';
 
 
 const Home: NextPage = () => {
+  const Projects = [
+    {
+      id: 1,
+      title: "人狼コロシアム",
+      subTitle: "高校の休み時間を取り戻すために生まれたボードゲーム",
+      category1: "Entertainment",
+      category2: "Student",
+      issue: "高校の休み時間が、スマートフォンに奪われる",
+      issueContent: "学校の授業が終わり休み時間になると、学生のポケットから出てくるのはスマホ。教室という一つの空間の中にいるのに、クラスメイトの意識はバラバラで、みんなスマホの中の世界に閉じこもっていました。今では当たり前になっているその光景。スマホの普及により、便利で快適な生活を送ることができる反面、それに伴い生じた「人と人とのつながりの希薄化」に課題を感じました。",
+      solution: "休み時間の10分で出来る、人狼ボードゲーム",
+      solutionContent: "休み時間の10分、昼休みの1時間という限られた時間の中で、スマホ触っているクラスメイトを巻き込む手段として、当時若者の間で流行していた「人狼ゲーム」を使い、活気ある休み時間を取り戻そうとしました。そこでTRYBEは、クラスメイトがスマホではなく、わざわざボードゲームに時間を使いたいと思ってもらうために、これまでの「人狼を見つける」人狼ゲームとは異なり、「人狼を見つけてはいけない」人狼ゲームという、真逆のコンセプトで「人狼コロシアム」というボードゲームの開発を行い、クラスメイトと休み時間を共にしました。",
+      result: "活気を取り戻す休み時間",
+      resultContent: "休み時間になると、一つの机の周りにクラスメイトが集まり、「人狼コロシアム」を取り囲んで会話が飛び交うようになりました。また、仲の良い他のクラスの生徒たちも、昼休みになると一つの教室に集まり、人狼コロシアムを遊ぶこともありました。手にあるのはスマホ、見つめる先もスマホだった光景が、人狼コロシアムの制作によって手にはカード、見つめる先には駆け引きを楽しむクラスメイトに変わって行きました。発展した世の中に、あえてアナログな体験を提供することで、活気溢れる大切な休み時間を体現することができました。",
+      result2: "若者の圧倒的支持によりクラウドファンディング達成",
+      resultContent2: "クラウドファンディングで約200万円の資金調達、453人の方に支援していただきました。453人の総支援者のうち、10代、20代だけで292人という、若者からの支援が過半数を占めており、リリース以降も様々なSNSを通して、「人狼コロシアム」の体験の様子を多くの方が投稿してくださいました。またイベント出展の際には、「かっこよさ」「高級感」などの一貫性のあるブランディングを行うことで、若者からの支持を集めています。",
+      image1: "AnyConv.com__IMG_6691.webp",
+      image2: "AnyConv.com__IMG_6691.webp",
+      image3: "AnyConv.com__IMG_6691.webp",
+      image4: "AnyConv.com__IMG_6691.webp",
+      video: "C0129.mp4"
+    },
+    {
+      id: 2,
+      title: "青春奪還作戦",
+      subTitle: "高校を舞台にした全国キャリアイベント", category1: "Entertainment",
+      category2: "Student",
+      issue: "就活という岐路に立ち、進路に悩む学生", issueContent: "学生たちはやりたいことや就きたい仕事が分からないまま就活が始まる人が多いです。どうしていいか分からないまま、とりあえず就活を進めたり、就職してしまう。そのような進路に悩む学生は世間の想像以上に多く、深刻な問題になっています。新卒が就職してから3年以内に30% の人が離職するという数字の本質もここにあると考えました。", solution: "高校生活にもう一度戻ることができる、擬似体験型キャリアイベント",
+      solutionContent: "進路に悩める大学生が、２度と戻れないはずの高校生活を舞台に、自分の人生を考えるプログラムを丸一日かけて行いました。そこでは本来出会わないはずの新たなクラスメイトと共に、自分のやりたい事は何なのか、そのために今何をすることが必要なのか考え、自分の進路を自分の明確な意思を持って選択するためのきっかけを提供しました。授業については、すでに社会に出て活躍している大人や同世代の学生が先生として登壇し、国語や美術などのどこか懐かしく、けど学校では教えてもらわないような授業内容を講談してもらいました。プログラム終了後もアフターフォローとして希望者に個人面談を行なっており、選択肢を与えて終わらせるのではなく、最後までサポートする体制で取り組んでいます。", result: "起業家を排出",
+      resultContent: "青春奪還作戦を通して、起業の道に進む人、今まで毛嫌いしていたはずのマーケティングにシフトする人、元々目指していた進路により確固たる決意を持つ人、将来やりたいことが決まった人など、多くの学生の人生に、少しのきっかけを与えることができました。イベント参加者、運営としての関わりだけで終わらず、起業に進む人や興味がある人に対しては教育環境の提供をしたり、就活に向けて自分の武器を作りたい人に対しては、プロジェクトごとにメンバーとしてジョインしてもらうなど、きっかけや機会を与えて終わるのではなく、その後も共に成長していくための取り組みに力を入れています。",
+      result2: "TikTokでも大反響",
+      resultContent2: "TikTokに青春奪還作戦のリール動画を投稿したところ、総視聴回数60万再生、5万4千いいね、350コメント、850共有を記録しました。コメントの内容としては「企画に対しての共感」と「参加表明」の二つが大半を占めております。すでに働いている人、進路に悩む大学生、コロナによって行事が中止になった高校生など、年齢性別に問わず、全国各地での開催を強く希望されております。現段階で大阪で2回開催、そして今後東京と広島で1回ずつ開催予定、その後も全国各地で開催する方針です。",
+      image1: "AnyConv.com__IMG_0164.webp",
+      image2: "AnyConv.com__IMG_0164.webp",
+      image3: "AnyConv.com__IMG_0164.webp",
+      image4: "AnyConv.com__IMG_0164.webp",
+      video: "C0129.mp4"
+    }];
+  
+  Projects.map((project) => {
+    // userの情報
+    const projectInfo = { id: project.id, title: project.title, subTitle: project.subTitle, video: project.video, image1: project.image1, image2: project.image2, image3: project.image3, image4: project.image4 };
+  })
+
   return (
     <div>
       <Head>
@@ -29,93 +75,90 @@ const Home: NextPage = () => {
             <source src={"C0129.mp4"} type="video/mp4" />
           </video>
         </div>
-        <div className='w-10/12 lg:w-9/12 m-auto  mt-20'>
-          <div className=''>
-            <div className=' mb-10 lg:mb-14' ><h1 className='text-2xl font-bold lg:text-center lg:text-4xl'>WHO WE ARE</h1></div>
-            <div className=''><h1 className='text-lg lg:text-2xl font-bold mb-2'>『TRYBE Inc.は学生起業である。』</h1>
-              <p className='line-relaxed lg:text-lg text-sm'>
-                2020年12月、関西の6大学の学生が集まり起業しました。 プロジェクトメンバーには多様な学生を巻き込み、 関西だけでなく、関東にも活動の幅を広げています。</p>
-              <h1 className='text-lg lg:text-2xl font-bold mb-2 mt-8'>『TRYBE Inc.は学生企業である。』</h1>
-              <p className='line-relaxed lg:text-lg text-sm'>
-                私たちは学生のリアルタイムにコミットした企業です。 学生にわかりやすくタメになる「教育」事業と、 学生がおもしろくたのしめる「クリエイティブ」事業と、 学生に求められる「ブランディング」事業を提供しています。</p></div>
+        <div className='  mt-20'>
+    
+          
+          <section id="project">
+          <div className=' mt-40 w-10/12 lg:w-9/12 m-auto'>
+              <h1 className='text-center mb-12 text-4xl font-bold'>PROJECTS</h1>
+              <div>
+                <div className='grid lg:grid-cols-2 gap-2'>
+                  {Projects.map((project) => {
+                    const projectInfo = {
+                      id: project.id,
+                      title: project.title,
+                      subTitle: project.subTitle,
+                      issue: project.issue,
+                      issueContent: project.issueContent,
+                      solution: project.solution,
+                      solutionContent: project.solutionContent,
+                      result: project.result,
+                      resultContent: project.resultContent,
+                      result2: project.result2,
+                      resultContent2: project.resultContent2,
+                      image1: project.image1,
+                      image2: project.image2,
+                      image3: project.image3,
+                      image4: project.image4,
+                      video: project.video
+                    };
+                    return (
+                      <div key={project.id} className='  mb-12'>
+                        <video
+                          controls
+                          playsInline
+                          style={{
+                          }}>
+                          <source src={`/${project.video}`} type="video/mp4" />
+                        </video>
+                        <Link as={`/projects/${project.id}`} href={{ pathname: `/projects/[id]`, query: projectInfo }} ><a>
+                          <div className=' grid grid-cols-2 gap-2 pt-2'>
+                            <Img src={`/${project.image1}`} className='w-full' width={600} height={330} ></Img>
+                            <Img src={`/${project.image2}`} className='w-full' width={600} height={330} ></Img>
+                          </div>
+                          <div className="mt-2">
+                            <p className="inline text-xs bg-black text-white py-1 px-3 rounded-xl">{project.category1}</p>
+                            <p className="inline text-xs bg-black text-white py-1 px-3 rounded-xl ml-2">{project.category2}</p>
+                            <h1 className="font-bold text-2xl py-3">{project.title}</h1>
+                            <h2 className="font-medium text-md">{project.subTitle}</h2>
+                            <p className="pt-5 font-normal">and more</p>
+                          </div>
+                        </a>
+                        </Link>
+                      </div>
+                    );
+                  })}
+                </div>
+              </div>
           </div>
-          <div className='mt-20 lg:mt-32'>
-            <div className=' mb-10'><h1 className='text-2xl lg:text-4xl font-bold lg:text-center'>OUR SERVICE</h1></div>
-            <div className='lg:flex'>
-              <div className='lg:w-3/12 lg:m-auto'>
-                <h1 className='text-lg lg:text-2xl font-bold mb-5 mt-8 lg:text-center'>
-                <span className='border-b-2 border-black'>教育</span>
-              </h1>
-              <p className='line-relaxed lg:text-lg text-sm'>
-                クリエイティブの力で、社会のあらゆる変化と挑戦を推進していく。 GOは、広告領域に留まらず事業全体をクリエイティブの力で成長・進化していきます。 売上や企業価値だけでなく、事業を通して社会・顧客・生活者の幸福を追求します。
-              </p>
-              </div>
-              <div className='lg:w-3/12 lg:m-auto'>
-                <h1 className='text-lg lg:text-2xl font-bold mb-5 mt-8 lg:text-center'>
-                <span className='border-b-2 border-black'>クリエイティブ</span>
-              </h1>
-              <p className='line-relaxed lg:text-lg text-sm'>
-                クリエイティブの力で、社会のあらゆる変化と挑戦を推進していく。 GOは、広告領域に留まらず事業全体をクリエイティブの力で成長・進化していきます。 売上や企業価値だけでなく、事業を通して社会・顧客・生活者の幸福を追求します。
-              </p>
-              </div>
-              <div className='lg:w-3/12 lg:m-auto'>
-                <h1 className='text-lg lg:text-2xl font-bold mb-5 mt-8 lg:text-center'>
-                <span className='border-b-2 border-black'>プランニング</span>
-              </h1>
-              <p className='line-relaxed lg:text-lg text-sm'>
-                クリエイティブの力で、社会のあらゆる変化と挑戦を推進していく。 GOは、広告領域に留まらず事業全体をクリエイティブの力で成長・進化していきます。 売上や企業価値だけでなく、事業を通して社会・顧客・生活者の幸福を追求します。
-              </p>
-              </div>
-            </div>
+          <div className='mt-20'>
+            <TestCarousel />
           </div>
+          </section>
 
-          <div className=' mt-40 '>
-            <h1 className='text-2xl lg:text-4xl font-bold mb-6 lg:text-center lg:mb-12'>PROJECTS</h1>
-            <div className='flex'>
-              
-                <div className='w-6/12 '>
-                <Link href="/projects/[id]"><a >
-                <Img src="/AnyConv.com__IMG_6691.webp" alt="" width={500} height={300} className="hover:opacity-50" />
-                  <h3 className='text-lg font-bold'>人狼コロシアム</h3>
-                  <p className='text-sm'>高校の休み時間を取り戻すために 生まれたボードゲーム</p>
-                </a></Link>
-                </div>
-              
-              
-                <div className='w-6/12 '>
-                <Link href="/projects/2"><a >
-                <Img src="/AnyConv.com__IMG_0164.webp" alt="" width={500} height={300} className="hover:opacity-50"/>
-                  <h3 className='text-lg font-bold'>青春奪還作戦</h3>
-                  <p className='text-sm'>高校を舞台にした全国キャリアイベント</p>
-                </a></Link>
-              </div>
-              
-              </div>
-            
-              <div className='flex mt-14'>
-                <div className='w-6/12 '>
-                <Img src="/DSC02957.JPG" alt="" width={500} height={300} className="hover:opacity-50"/>
-                  <h3 className='text-lg font-bold'>屋台プロジェクト</h3>
-                <p className='text-sm'>あたたかいを届ける屋台</p>
-                </div>
-                <div className='w-6/12 '>
-                <Img src="/AnyConv.com__S__6185130.webp" alt="" width={500} height={300} className="hover:opacity-50"/>
-                  <h3 className='text-lg font-bold'>サンタ屋</h3>
-                <p className='text-sm'>みんなが幸せなクリスマスを</p>
-                </div>
-              </div>
-            <div className='text-center p-3 mt-12'>
-              <Link href={"projects"}><a className='border border-black  py-3 px-14 hover:bg-black hover:text-white duration-200'>All Project ＞</a></Link>
-              </div>
-          </div>
-          <div className=' mt-40'>
+          <section id="about">
+            <About />
+          </section>
+
+          <section id="service">
+            <Service />
+          </section>
+
+
+
+          <div className=' mt-40 w-10/12 lg:w-9/12 m-auto'>
             <h1 className='text-2xl font-bold mb-6 lg:text-center lg:mb-12 lg:text-4xl'>OUR CLIENTS</h1>
             <Pertoner />
           </div>
-          <div className=' mt-40 text-center mb-20'>
+
+
+
+          <div className=' mt-40 text-center mb-20 w-10/12 lg:w-9/12 m-auto'>
             <h1 className='text-2xl font-bold text-left mb-8 lg:mb-12 lg:text-center lg:text-4xl'>CONTACT</h1>
             <Contactbtn />
           </div>
+
+
         </div>
       </main>
 

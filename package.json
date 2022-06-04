@@ -13,10 +13,12 @@
     "@heroicons/react": "^1.0.6",
     "next": "^12.1.6",
     "next-videos": "1.4.0",
+    "nodemailer": "^6.7.5",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "react-player": "^2.10.0",
     "remixicon": "^2.5.0",
+    "swiper": "^8.2.2",
     "video-react": "^0.15.0"
   },
   "devDependencies": {

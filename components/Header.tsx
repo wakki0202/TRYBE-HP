@@ -28,7 +28,7 @@ const solutions = [
   {
     name: 'Contact',
     description: 'Build strategic funnels that will drive your customers to convert',
-    href: '/contact',
+    href: '/mail',
     icon: MailIcon,
   },
 ]
@@ -72,7 +72,7 @@ const Header: React.FC = () => {
             <Link href={"/members"}><a className="text-base font-medium text-white hover:text-gray-500">
               Member
             </a></Link>
-            <Link href={"/contact"}><a className="text-base font-medium text-white hover:text-gray-500">
+            <Link href={"/mail"}><a className="text-base font-medium text-white hover:text-gray-500">
               Contact
             </a></Link>
 
