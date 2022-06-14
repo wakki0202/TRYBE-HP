@@ -94,9 +94,10 @@ export default function Home() {
             </div>
           </formGroup>
           <div className='text-center mt-10 mb-20 border border-gray-300  w-9/12 lg:w-7/12 m-auto py-5 hover:bg-gray-700 hover:text-white duration-200'>
-            <Link href='/contact'><a type="submit"
+            <Link href='/contact'><a type="submit" 
               onClick={(e) => {
                 handleSubmit(e);
+                confirm('入力していただいた内容を送信します。よろしいですか？')
               }} className='font-bold'>送信する</a></Link>
           </div>
         </form>

@@ -1,4 +1,4 @@
-import type { NextPage } from 'next'
+import type { GetServerSideProps, NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
@@ -6,7 +6,22 @@ import Link from 'next/link';
 import "remixicon/fonts/remixicon.css";
 import { useRouter } from 'next/router'
 
-const Home: NextPage = () => {
+type StatusPageProps = { name: string }
+
+
+export const getServerSideProps: GetServerSideProps<StatusPageProps> = async (
+  context
+) => {
+  const {  name } = context.query
+
+  if (typeof name !== 'string') {
+    return { notFound: true }
+  }
+
+  return { props: {  name } }
+}
+
+const StatusPage: NextPage<StatusPageProps> = (props) => {
 
 
 
@@ -30,7 +45,7 @@ const Home: NextPage = () => {
           </div>
           <div className='lg:flex pb-20 pt-3'>
             <div className='lg:w-4/12'>
-              <h1 className='font-extrabold text-2xl'>{router.query.name}</h1>
+              <h1 className='font-extrabold text-2xl'>{props.name}</h1>
               <h2 className='font-light text-xl'>{ router.query.nameRoma }</h2>
               <p className='pt-4 pb-8 lg:pb-0 lg:pt-8 text-sm font-bold'>{router.query.position}</p>
             </div>
@@ -51,4 +66,4 @@ const Home: NextPage = () => {
   )
 }
 
-export default Home
+export default StatusPage

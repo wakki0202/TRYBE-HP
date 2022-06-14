@@ -7,42 +7,8 @@ import ProjectCard from '../../components/Project'
 import ProjectContent from '../../components/ProjectContent'
 const Home: NextPage = () => {
   const Projects = [
-    {
-      id: 1,
-      title: "人狼コロシアム",
-      subTitle: "高校の休み時間を取り戻すために生まれたボードゲーム",
-      category1: "Entertainment",
-      category2: "Student",
-      issue: "高校の休み時間が、スマートフォンに奪われる",
-      issueContent: "学校の授業が終わり休み時間になると、学生のポケットから出てくるのはスマホ。教室という一つの空間の中にいるのに、クラスメイトの意識はバラバラで、みんなスマホの中の世界に閉じこもっていました。今では当たり前になっているその光景。スマホの普及により、便利で快適な生活を送ることができる反面、それに伴い生じた「人と人とのつながりの希薄化」に課題を感じました。",
-      solution: "休み時間の10分で出来る、人狼ボードゲーム",
-      solutionContent: "休み時間の10分、昼休みの1時間という限られた時間の中で、スマホ触っているクラスメイトを巻き込む手段として、当時若者の間で流行していた「人狼ゲーム」を使い、活気ある休み時間を取り戻そうとしました。そこでTRYBEは、クラスメイトがスマホではなく、わざわざボードゲームに時間を使いたいと思ってもらうために、これまでの「人狼を見つける」人狼ゲームとは異なり、「人狼を見つけてはいけない」人狼ゲームという、真逆のコンセプトで「人狼コロシアム」というボードゲームの開発を行い、クラスメイトと休み時間を共にしました。",
-      result: "活気を取り戻す休み時間",
-      resultContent: "休み時間になると、一つの机の周りにクラスメイトが集まり、「人狼コロシアム」を取り囲んで会話が飛び交うようになりました。また、仲の良い他のクラスの生徒たちも、昼休みになると一つの教室に集まり、人狼コロシアムを遊ぶこともありました。手にあるのはスマホ、見つめる先もスマホだった光景が、人狼コロシアムの制作によって手にはカード、見つめる先には駆け引きを楽しむクラスメイトに変わって行きました。発展した世の中に、あえてアナログな体験を提供することで、活気溢れる大切な休み時間を体現することができました。",
-      result2: "若者の圧倒的支持によりクラウドファンディング達成",
-      resultContent2: "クラウドファンディングで約200万円の資金調達、453人の方に支援していただきました。453人の総支援者のうち、10代、20代だけで292人という、若者からの支援が過半数を占めており、リリース以降も様々なSNSを通して、「人狼コロシアム」の体験の様子を多くの方が投稿してくださいました。またイベント出展の際には、「かっこよさ」「高級感」などの一貫性のあるブランディングを行うことで、若者からの支持を集めています。",
-      image1: "jinrotop1.jpg",
-      image2: "jinrotop2.JPG",
-      image3: "AnyConv.com__IMG_6691.webp",
-      image4: "AnyConv.com__IMG_6691.webp",
-      video: "C0129.mp4"
-    },
-    {
-      id: 2,
-      title: "青春奪還作戦",
-      subTitle: "高校を舞台にした全国キャリアイベント", category1: "Entertainment",
-      category2: "Student",
-      issue: "就活という岐路に立ち、進路に悩む学生", issueContent: "学生たちはやりたいことや就きたい仕事が分からないまま就活が始まる人が多いです。どうしていいか分からないまま、とりあえず就活を進めたり、就職してしまう。そのような進路に悩む学生は世間の想像以上に多く、深刻な問題になっています。新卒が就職してから3年以内に30% の人が離職するという数字の本質もここにあると考えました。", solution: "高校生活にもう一度戻ることができる、擬似体験型キャリアイベント",
-      solutionContent: "進路に悩める大学生が、２度と戻れないはずの高校生活を舞台に、自分の人生を考えるプログラムを丸一日かけて行いました。そこでは本来出会わないはずの新たなクラスメイトと共に、自分のやりたい事は何なのか、そのために今何をすることが必要なのか考え、自分の進路を自分の明確な意思を持って選択するためのきっかけを提供しました。授業については、すでに社会に出て活躍している大人や同世代の学生が先生として登壇し、国語や美術などのどこか懐かしく、けど学校では教えてもらわないような授業内容を講談してもらいました。プログラム終了後もアフターフォローとして希望者に個人面談を行なっており、選択肢を与えて終わらせるのではなく、最後までサポートする体制で取り組んでいます。", result: "起業家を排出",
-      resultContent: "青春奪還作戦を通して、起業の道に進む人、今まで毛嫌いしていたはずのマーケティングにシフトする人、元々目指していた進路により確固たる決意を持つ人、将来やりたいことが決まった人など、多くの学生の人生に、少しのきっかけを与えることができました。イベント参加者、運営としての関わりだけで終わらず、起業に進む人や興味がある人に対しては教育環境の提供をしたり、就活に向けて自分の武器を作りたい人に対しては、プロジェクトごとにメンバーとしてジョインしてもらうなど、きっかけや機会を与えて終わるのではなく、その後も共に成長していくための取り組みに力を入れています。",
-      result2: "TikTokでも大反響",
-      resultContent2: "TikTokに青春奪還作戦のリール動画を投稿したところ、総視聴回数60万再生、5万4千いいね、350コメント、850共有を記録しました。コメントの内容としては「企画に対しての共感」と「参加表明」の二つが大半を占めております。すでに働いている人、進路に悩む大学生、コロナによって行事が中止になった高校生など、年齢性別に問わず、全国各地での開催を強く希望されております。現段階で大阪で2回開催、そして今後東京と広島で1回ずつ開催予定、その後も全国各地で開催する方針です。",
-      image1: "seishuntop-1.jpg",
-      image2: "seishuntop-2.jpg",
-      image3: "AnyConv.com__IMG_0164.webp",
-      image4: "AnyConv.com__IMG_0164.webp",
-      video: "C0129.mp4"
-    },
+
+     
     {
       id: 3,
       title: "屋台プロジェクト",
@@ -56,8 +22,8 @@ const Home: NextPage = () => {
       image1: "misosirutop_1.JPG",
       image2: "misosirutop_3.JPG",
       image3: "DSC02957.JPG",
-      image4: "DSC02957.JPG",
-      video: "C0129.mp4"
+      image4: "DSC02957.JPG"
+   
     },
     {
       id: 4,
@@ -76,8 +42,8 @@ const Home: NextPage = () => {
       image1: "AnyConv.com__S__6185130.webp",
       image2: "AnyConv.com__S__6185130.webp",
       image3: "AnyConv.com__S__6185130.webp",
-      image4: "AnyConv.com__S__6185130.webp",
-      video: "C0129.mp4"
+      image4: "AnyConv.com__S__6185130.webp"
+     
     }
   ];
 
@@ -94,8 +60,8 @@ const Home: NextPage = () => {
       image1: "AnyConv.com__IMG_6691.webp",
       image2: "AnyConv.com__IMG_6691.webp",
       image3: "AnyConv.com__IMG_6691.webp",
-      image4: "AnyConv.com__IMG_6691.webp",
-      video: "C0129.mp4"
+      image4: "AnyConv.com__IMG_6691.webp"
+   
     },
     {
       id: 2,
@@ -121,7 +87,7 @@ const Home: NextPage = () => {
       image2: "AnyConv.com__IMG_6691.webp",
       image3: "AnyConv.com__IMG_6691.webp",
       image4: "AnyConv.com__IMG_6691.webp",
-      video: "C0129.mp4"
+      
     },
     {
       id: 4,
@@ -134,7 +100,7 @@ const Home: NextPage = () => {
       image2: "AnyConv.com__IMG_6691.webp",
       image3: "AnyConv.com__IMG_6691.webp",
       image4: "AnyConv.com__IMG_6691.webp",
-      video: "C0129.mp4"
+    
     },
     {
       id: 5,
@@ -147,12 +113,12 @@ const Home: NextPage = () => {
       image2: "AnyConv.com__IMG_6691.webp",
       image3: "AnyConv.com__IMG_6691.webp",
       image4: "AnyConv.com__IMG_6691.webp",
-      video: "C0129.mp4"
+ 
     },
   ];
   Projects.map((project) => {
     // userの情報
-    const projectInfo = { id: project.id, title: project.title, subTitle: project.subTitle, video: project.video, image1: project.image1, image2: project.image2, image3: project.image3, image4: project.image4 };
+    const projectInfo = { id: project.id, title: project.title, subTitle: project.subTitle, image1: project.image1, image2: project.image2, image3: project.image3, image4: project.image4 };
   })
   Works.map((work) => {
     // userの情報
@@ -168,6 +134,46 @@ const Home: NextPage = () => {
       <main className='font-body mt-24 mb-20 w-9/12 m-auto'>
         <section id="projects">
           <h1 className='text-center mb-12 text-4xl font-bold'>PROJECTS</h1>
+          <div>
+            <div className='grid lg:grid-cols-2 gap-2'>
+              <div className='  mb-12'>
+                
+                  <Img src={`/S__50151467.jpg`}  width="100%" height="315"></Img>   
+                    <Link href={`/projects/jinro`} ><a>
+                      <div className=' grid grid-cols-2 gap-2 '>
+                      <Img src={`/jinrotop1.jpg`} className='w-full' width={600} height={330} ></Img>
+                      <Img src={`/jinrotop2.jpg`} className='w-full' width={600} height={330} ></Img>
+                      </div>
+                      <div className="mt-2">
+                        <p className="inline text-xs bg-black text-white py-1 px-3 rounded-xl">Education</p>
+                        <p className="inline text-xs bg-black text-white py-1 px-3 rounded-xl ml-2">Entertainment</p>
+                        <h1 className="font-bold text-2xl py-3">人狼コロシアム</h1>
+                    <h2 className="font-medium text-md">高校の休み時間を取り戻すために生まれたボードゲーム</h2>
+                        <p className="pt-5 font-normal">and more</p>
+                      </div>
+                    </a>
+                    </Link>
+                  </div>
+                  <div className='  mb-12'>
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/YMZNYzhbY_s" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>
+                    <Link href={`/projects/seishun`} ><a>
+                      <div className=' grid grid-cols-2 gap-2 pt-2'>
+                        <Img src={`/seishuntop-1.jpg`} className='w-full' width={600} height={330} ></Img>
+                        <Img src={`/seishuntop-2.jpg`} className='w-full' width={600} height={330} ></Img>
+                      </div>
+                      <div className="mt-2">
+                        <p className="inline text-xs bg-black text-white py-1 px-3 rounded-xl">Education</p>
+                        <p className="inline text-xs bg-black text-white py-1 px-3 rounded-xl ml-2">Entertainment</p>
+                        <h1 className="font-bold text-2xl py-3">青春奪還作戦</h1>
+                        <h2 className="font-medium text-md">高校を舞台にした全国キャリアイベント</h2>
+                        <p className="pt-5 font-normal">and more</p>
+                      </div>
+                    </a>
+                    </Link>
+                  </div>
+            
+            </div>
+          </div>
           <div>
             <div className='grid lg:grid-cols-2 gap-2'>
               {Projects.map((project) => {
@@ -186,18 +192,11 @@ const Home: NextPage = () => {
                   image1: project.image1,
                   image2: project.image2,
                   image3: project.image3,
-                  image4: project.image4,
-                  video: project.video
+                  image4: project.image4
                 };
                 return (
                   <div key={project.id} className='  mb-12'>
-                    <video
-                      controls
-                      playsInline
-                      style={{
-                      }}>
-                      <source src={`/${project.video}`} type="video/mp4" />
-                    </video>
+                    <Img src={`/S__50151467.jpg`} width="100%" height="315"></Img> 
                     <Link as={`/projects/${project.id}`} href={{ pathname: `/projects/[id]`, query: projectInfo }} ><a>
                       <div className=' grid grid-cols-2 gap-2 pt-2'>
                         <Img src={`/${project.image1}`} className='w-full' width={600} height={330} ></Img>
@@ -237,13 +236,7 @@ const Home: NextPage = () => {
                 };
                 return (
                   <div key={work.id} className='  mb-12'>
-                    <video
-                      controls
-                      playsInline
-                      style={{
-                      }}>
-                      <source src={`/${work.video}`} type="video/mp4" />
-                    </video>
+                    <Img src={`/S__50151467.jpg`} width="100%" height="315"></Img> 
                     <Link as={`/works/${work.id}`} href={{ pathname: `/works/[id]`, query: workInfo }} ><a>
                       <div className=' grid grid-cols-2 gap-2 pt-2'>
                         <Img src={`/${work.image1}`} className='w-full' width={600} height={450} ></Img>

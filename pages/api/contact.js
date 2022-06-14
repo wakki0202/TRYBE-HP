@@ -16,7 +16,7 @@ export default function sendmail(req, res) {
   // 管理人に送るお問い合わせメッセージ通知メール
   const toHostMailData = {
     from: 'sender@mail.com',
-    to: "host@mail.com",
+    to: "ytk0202@outlook.jp",
     subject: `【お問い合わせ】${req.body.name}様より`,
     text: req.body.message + " | Sent from: " + req.body.email,
     html: `
