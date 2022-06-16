@@ -14,7 +14,7 @@ const Title: React.FC = () => {
       <h1 className='font-bold text-3xl pt-16 pb-2'>{router.query.title}</h1>
       <h3 className='pb-8'>{router.query.subTitle}</h3>
 
-      <Img src={`/${router.query.image1}`} width={900} height={500}></Img>
+      <Img src={`${router.query.image1}`} width={900} height={500}></Img>
 
       <div className='pt-12 lg:flex lg:pt-14'>
         <div className=' lg:w-2/12 '>
@@ -26,7 +26,7 @@ const Title: React.FC = () => {
         </div>
       </div>
 
-      <Img src={`/${router.query.image2}`} width={900} height={500}></Img>
+      <Img src={`${router.query.image2}`} width={900} height={500}></Img>
 
       <div className='lg:flex pt-10'>
         <div className=' lg:w-2/12 '>
@@ -37,7 +37,7 @@ const Title: React.FC = () => {
           <p className='text-md leading-relaxed pb-24'>{router.query.solutionContent}</p>
         </div>
       </div>
-      <Img src={`/${router.query.image2}`} width={900} height={500}></Img>
+      <Img src={`${router.query.image3}`} width={900} height={500}></Img>
 
 
       <div className='lg:flex pt-10'>

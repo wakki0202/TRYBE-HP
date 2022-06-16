@@ -19,10 +19,10 @@ const Home: NextPage = () => {
       issueContent: "2022年冬、COVID-19の影響で、身も心もあたたかさを失いつつあった。コロナウイルス感染に恐れながら満員電車に揺られ出勤する社会人、理想のキャンパスライフとはかけ離れたオンライン授業、行事ごとがことごとく中止になる高校生活。やるせない感情と、どうしようもならない現状との間に挟まれ、多くの人がそのギャップに疲弊していました。", solution: "「温度」「人」「色」で３度温まる味噌汁屋台", solutionContent: "学生や社会人が帰宅する夕刻に合わせて、温かい味噌汁を販売する屋台を動かしました。寒い日に自動販売機であったかい飲み物を購入した時の、あの「ホッ」とする体験を提供するべく、なんら普通の温かい味噌汁を販売。また１から屋台を制作し、どこか歪で、でもどこか親近感のある空間を作りました。デジタルな社会に包まれる今だからこそ、アナログ感溢れる体験を提供し、また屋台は、オレンジなどの暖色をメインに装飾して、安心感と温かさを演出しました。",
       result: "温かいコミュケーションが飛び交うプラットフォームに",
       resultContent: "仕事帰りの方。SNSを見て駆けつけてくれた学生。貴社の方。ご近所さんとワンちゃん。 今まで会ったことも話したこともない人たちが、味噌汁と屋台を囲んで和気藹々と触れ合う空間がありました。 また味噌汁で使用された屋台は、他の学生や団体が「事業プラットフォーム」として活用しています。 NPO法人KOKOIMAと関西大学人間健康学部のゼミとの共催イベント、ストリートファッションショーの催し企画や、 東大阪市にあるシェアハウスTNKbase主催の、1から無農薬で作った焼き芋の販売や、菜の花を配るプロジェクトなど さまざまな企画や事業のプラットフォームの一つとして確立しました。", result2: "", resultContent2: "",
-      image1: "misosirutop_1.JPG",
-      image2: "misosirutop_3.JPG",
-      image3: "DSC02957.JPG",
-      image4: "DSC02957.JPG"
+      image1: "/misosirutop_1.JPG",
+      image2: "/misosirutop_3.JPG",
+      image3: "/misosiruresult_2.jpg",
+      image4: "/DSC02957.JPG"
    
     },
     {
@@ -39,10 +39,10 @@ const Home: NextPage = () => {
       resultContent: "キッチンカーの周りには、未就学児から社会人という、幅広い年齢層の方たちによって賑わいました。 子供たちはお菓子を持ったサンタクロースの周りに集まり、両手が塞がるまでお菓子をかき集めている光景を、 学生や社会人が見守るというとても温かい空間がありました。 お客さんとして当イベントに来た学生の中には、急遽売り子を始める学生や、 サンタクロースの衣装を着て子供と会話を楽しむ学生など、単なる運営とお客さんという関わりで終わらず、 共に空間を作りながらイベントを楽しむことができました。",
       result2: "",
       resultContent2: "",
-      image1: "AnyConv.com__S__6185130.webp",
-      image2: "AnyConv.com__S__6185130.webp",
-      image3: "AnyConv.com__S__6185130.webp",
-      image4: "AnyConv.com__S__6185130.webp"
+      image1: "/AnyConv.com__S__6185130.webp",
+      image2: "/santasolution_1.jpg",
+      image3: "/santaresult_1.jpg",
+      image4: "/AnyConv.com__S__6185130.webp"
      
     }
   ];
@@ -57,10 +57,10 @@ const Home: NextPage = () => {
       what: "コンサルティング",
       whatContent: "クラウドファンディングでカンボジアの小学校に国際貢献する、実践型ビジネス体験プログラム「サムライカレープロジェクトオンライン」のコンサルティングに取り組みました。過去に成功したクラウドファンディン体験をもとに、2時間程度の講義とクラウドファンディングサイトのフィードバックを行いました。実績として、コンサルティングとして関わったプロジェクトのうち4つのプロジェクトが成功しました。",
       whatContent2: "実績や社会経験も何も持たない学生が、勝負していく一つの手段であるクラウドファンディングの講義を、学生向けに無料で行なっており、学生主体のプロジェクト促進に向け全力で支援・サポートしております。",
-      image1: "AnyConv.com__IMG_6691.webp",
-      image2: "AnyConv.com__IMG_6691.webp",
-      image3: "AnyConv.com__IMG_6691.webp",
-      image4: "AnyConv.com__IMG_6691.webp"
+      image1: "/AnyConv.com__IMG_6691.webp",
+      image2: "/AnyConv.com__IMG_6691.webp",
+      image3: "/AnyConv.com__IMG_6691.webp",
+      image4: "/AnyConv.com__IMG_6691.webp"
    
     },
     {
@@ -70,10 +70,10 @@ const Home: NextPage = () => {
       category2: "Education",
       what: "企画・プロモーション",
       whatContent: "今現在、環境をはじめとした様々な課題や、テクノロジーによる急激な変化と向き合っています。その状況の中でどのように働き、成長していくのかの前に、知らない仕事や世の中の流れを知っておくことが重要だと考えました。将来に向けて積極的にキャリア形成したい学生から、このままでいいのかと思っている学生までが、20代で成長するための一歩を踏み出すきっかけとなるイベントです。大手企業とスタートアップ双方に通じた人事のスペシャリストや、現役インターンや新卒採用でスタートアップの世界に入り活躍する社員の方などを招き、リアルな社会をお伝えしていただきました。TRYBEは「Career Meeting」の企画・プロモーションに携わりました。",
-      image1: "AnyConv.com__IMG_6691.webp",
-      image2: "AnyConv.com__IMG_6691.webp",
-      image3: "AnyConv.com__IMG_6691.webp",
-      image4: "AnyConv.com__IMG_6691.webp",
+      image1: "/AnyConv.com__IMG_6691.webp",
+      image2: "/AnyConv.com__IMG_6691.webp",
+      image3: "/AnyConv.com__IMG_6691.webp",
+      image4: "/AnyConv.com__IMG_6691.webp",
       video: "C0129.mp4"
     },
     {
@@ -83,10 +83,10 @@ const Home: NextPage = () => {
       category2: "Entertainment",
       what: "企画・開発・運営",
       whatContent: "子供たちがテクノロジー体験できる場所として、Gather.Townのバーチャル空間の中で、自分のキャラクターを動かし、秘密の屋上を目指す「ロボットストリート」の企画・開発・運営を行いました。ロボットストリートの中には、脱出ゲーム、⚪︎×クイズ、謎解きなどのコンテンツが用意されており、子供たちがバーチャル空間の中で遊んでる様子が伺えました。その他に、ロボットの操作、プログラミング、電子工作などのワークショップやセミナーなども同時に開催されていました。",
-      image1: "AnyConv.com__IMG_6691.webp",
-      image2: "AnyConv.com__IMG_6691.webp",
-      image3: "AnyConv.com__IMG_6691.webp",
-      image4: "AnyConv.com__IMG_6691.webp",
+      image1: "/S__50216974.jpg",
+      image2: "/AnyConv.com__IMG_6691.webp",
+      image3: "/AnyConv.com__IMG_6691.webp",
+      image4: "/AnyConv.com__IMG_6691.webp",
       
     },
     {
@@ -96,10 +96,10 @@ const Home: NextPage = () => {
       category2: "Entertainment",
       what: "企画・開発",
       whatContent: "私たちの生活は積水化学工業様の、環境に配慮し開発された製品に支えられています。 SDGsに大変力を入れてい事業に取り組まれています。そして今後の日本を担っていく小学生に、SDGsそのものやSDGs貢献の重要性などを伝えていきたいと思いました。ですが、小学生はSDGsに触れたこともなければ、興味もない。そんな小学生にSDGsへの貢献について伝えていくことに課題を感じていました。そこで、誰もが経験したことがある、「カルタ」を用いたゲーミフィケーションを通して、小学生にSDGsを分かりやすく楽しんでもらえるようなコンテンツの開発に取り組みました。",
-      image1: "AnyConv.com__IMG_6691.webp",
-      image2: "AnyConv.com__IMG_6691.webp",
-      image3: "AnyConv.com__IMG_6691.webp",
-      image4: "AnyConv.com__IMG_6691.webp",
+      image1: "/sekisui.jpg",
+      image2: "/AnyConv.com__IMG_6691.webp",
+      image3: "/AnyConv.com__IMG_6691.webp",
+      image4: "/AnyConv.com__IMG_6691.webp",
     
     },
     {
@@ -109,10 +109,10 @@ const Home: NextPage = () => {
       category2: "Entertainment",
       what: "企画・運営",
       whatContent: "プログラミングや電子工作など、テクノロジーを遊びながら学び、子どもたちの夢や自信のきっかけをつくる体験型ワークショップイベントの企画・運営を行いました。クラスター株式会社が企画・開発・運営を行う、バーチャル空間に集まって遊ぶことができるメタバースプラットフォーム「cluster」を使用し、子どもたちが遊ぶことができる企画開発に携わりました。「cluster」内のバーチャル空間と、未来& 先端テクノロジー体験施設「Robo & Peace」内のリアル空間を掛け合わせた、バーチャルとリアルが同時に進行する企画です。 ",
-      image1: "AnyConv.com__IMG_6691.webp",
-      image2: "AnyConv.com__IMG_6691.webp",
-      image3: "AnyConv.com__IMG_6691.webp",
-      image4: "AnyConv.com__IMG_6691.webp",
+      image1: "/S__50216973.jpg",
+      image2: "/AnyConv.com__IMG_6691.webp",
+      image3: "/AnyConv.com__IMG_6691.webp",
+      image4: "/AnyConv.com__IMG_6691.webp",
  
     },
   ];
@@ -136,13 +136,14 @@ const Home: NextPage = () => {
           <h1 className='text-center mb-12 text-4xl font-bold'>PROJECTS</h1>
           <div>
             <div className='grid lg:grid-cols-2 gap-2'>
-              <div className='  mb-12'>
-                
-                  <Img src={`/S__50151467.jpg`}  width="100%" height="315"></Img>   
+              <div className='mb-12'>
+                <div className='w-full'>
+                  <div className='bg-black text-white h-80 text-center text-3xl align-middle flex justify-center items-center'><p className='flex justify-center items-center'>Coming Soon</p></div>
+                </div>  
                     <Link href={`/projects/jinro`} ><a>
-                      <div className=' grid grid-cols-2 gap-2 '>
+                      <div className=' grid grid-cols-2 gap-2 pt-2'>
                       <Img src={`/jinrotop1.jpg`} className='w-full' width={600} height={330} ></Img>
-                      <Img src={`/jinrotop2.jpg`} className='w-full' width={600} height={330} ></Img>
+                      <Img src={`/jinrotop2.JPG`} className='w-full' width={600} height={330} ></Img>
                       </div>
                       <div className="mt-2">
                         <p className="inline text-xs bg-black text-white py-1 px-3 rounded-xl">Education</p>
@@ -155,7 +156,7 @@ const Home: NextPage = () => {
                     </Link>
                   </div>
                   <div className='  mb-12'>
-                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/YMZNYzhbY_s" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>
+                    <iframe width="100%" height="320" src="https://www.youtube.com/embed/YMZNYzhbY_s" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>
                     <Link href={`/projects/seishun`} ><a>
                       <div className=' grid grid-cols-2 gap-2 pt-2'>
                         <Img src={`/seishuntop-1.jpg`} className='w-full' width={600} height={330} ></Img>
@@ -196,12 +197,12 @@ const Home: NextPage = () => {
                 };
                 return (
                   <div key={project.id} className='  mb-12'>
-                    <Img src={`/S__50151467.jpg`} width="100%" height="315"></Img> 
                     <Link as={`/projects/${project.id}`} href={{ pathname: `/projects/[id]`, query: projectInfo }} ><a>
-                      <div className=' grid grid-cols-2 gap-2 pt-2'>
-                        <Img src={`/${project.image1}`} className='w-full' width={600} height={330} ></Img>
-                        <Img src={`/${project.image2}`} className='w-full' width={600} height={330} ></Img>
-                      </div>
+                    <div className='w-full block hover:opacity-50'>
+                      <Img src={project.image1} width="800" height="450" className='block'></Img> 
+                    </div>
+                    
+                      
                       <div className="mt-2">
                         <p className="inline text-xs bg-black text-white py-1 px-3 rounded-xl">{project.category1}</p>
                         <p className="inline text-xs bg-black text-white py-1 px-3 rounded-xl ml-2">{project.category2}</p>
@@ -236,12 +237,10 @@ const Home: NextPage = () => {
                 };
                 return (
                   <div key={work.id} className='  mb-12'>
-                    <Img src={`/S__50151467.jpg`} width="100%" height="315"></Img> 
-                    <Link as={`/works/${work.id}`} href={{ pathname: `/works/[id]`, query: workInfo }} ><a>
-                      <div className=' grid grid-cols-2 gap-2 pt-2'>
-                        <Img src={`/${work.image1}`} className='w-full' width={600} height={450} ></Img>
-                        <Img src={`/${work.image2}`} className='w-full' width={600} height={450} ></Img>
+                    <div className='w-full'>
+                      <Img src={work.image1} width="800" height="450"></Img> 
                       </div>
+                    <Link as={`/works/${work.id}`} href={{ pathname: `/works/[id]`, query: workInfo }} ><a>
                       <div className="mt-2">
                         <p className="inline text-xs bg-black text-white py-1 px-3 rounded-xl">{work.category1}</p>
                         <p className="inline text-xs bg-black text-white py-1 px-3 rounded-xl ml-2">{work.category2}</p>

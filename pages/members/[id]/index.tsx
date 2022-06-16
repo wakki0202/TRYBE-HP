@@ -5,21 +5,13 @@ import styles from '../styles/Home.module.css'
 import Link from 'next/link';
 import "remixicon/fonts/remixicon.css";
 import { useRouter } from 'next/router'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faTwitter } from '@fortawesome/free-brands-svg-icons'
+import { faInstagram } from '@fortawesome/free-brands-svg-icons'
 
 type StatusPageProps = { name: string }
 
 
-export const getServerSideProps: GetServerSideProps<StatusPageProps> = async (
-  context
-) => {
-  const {  name } = context.query
-
-  if (typeof name !== 'string') {
-    return { notFound: true }
-  }
-
-  return { props: {  name } }
-}
 
 const StatusPage: NextPage<StatusPageProps> = (props) => {
 
@@ -45,7 +37,7 @@ const StatusPage: NextPage<StatusPageProps> = (props) => {
           </div>
           <div className='lg:flex pb-20 pt-3'>
             <div className='lg:w-4/12'>
-              <h1 className='font-extrabold text-2xl'>{props.name}</h1>
+              <h1 className='font-extrabold text-2xl'>{router.query.name}</h1>
               <h2 className='font-light text-xl'>{ router.query.nameRoma }</h2>
               <p className='pt-4 pb-8 lg:pb-0 lg:pt-8 text-sm font-bold'>{router.query.position}</p>
             </div>
@@ -55,9 +47,26 @@ const StatusPage: NextPage<StatusPageProps> = (props) => {
               <p className='hidden lg:block text-xs  leading-relaxed pb-6 font-bold'>{router.query.tel} / {router.query.email}</p>
               <p className='lg:hidden text-xs  leading-relaxed  font-bold'>{router.query.tel}</p>
               <p className='lg:hidden text-xs  leading-relaxed pb-6 font-bold'>{router.query.email}</p>
+              <div className='flex '>
+                <Link href={`${router.query.twitter}`}>
+                  <a >
+                  <p className='text-md '>
+                    <FontAwesomeIcon icon={faTwitter} width={20} />
+                    </p>
+                  </a>
+                </Link>
+                <Link href={`${router.query.instagram}`}>
+                  <a>
+                    <p className='text-md pl-3 '>
+                      <FontAwesomeIcon icon={faInstagram} width={20} />
+                    </p>
+                  </a>
+                </Link>
+              </div>
             </div>
+            
           </div>
-          <p></p>
+          
         </div>
       </main>
 
