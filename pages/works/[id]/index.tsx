@@ -31,7 +31,7 @@ const StatusPage: NextPage<StatusPageProps> = (props) => {
     <div className='w-10/12 lg:w-8/12 m-auto'>
       <h1 className='font-bold text-3xl pt-16 pb-2'>{props.title}</h1>
       <h3 className='pb-8'>{router.query.subTitle}</h3>
-      <Img src={`/${router.query.image1}`} width={900} height={500}></Img>
+      <Img src={`${router.query.image1}`} width={900} height={500}></Img>
       <div className='lg:flex pt-10'>
         <div className=' lg:w-2/12 '>
           <h1 className='text-4xl pb-2 lg:pb-0 lg:text-2xl font-bold text-gray-400'>What</h1>

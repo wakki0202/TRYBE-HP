@@ -65,18 +65,11 @@ const Home: NextPage = () => {
 
       <main className='text-gray-700'>
         <div id='firstView' className='w-full'>
-          <video 
-            loop
-            muted
-            autoPlay
-            playsInline
-            style={{
-              width: "100%",
-            }}>
-            <source src={"C0129.mp4"} type="video/mp4" />
-          </video>
+          <div className=' text-center font-bold text-5xl align-middle flex justify-center items-center'>
+            
+          </div>
         </div>
-        <div className='  mt-20'>
+        <div className='  mt-10'>
     
           
           <section id="project">
