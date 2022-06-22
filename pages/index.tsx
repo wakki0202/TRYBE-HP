@@ -75,7 +75,7 @@ const Home: NextPage = () => {
               style={{
                 width: "100%",
               }}>
-              <source src={"P4090050.mp4"} type="video/mp4" />
+              <source src={"firstvideo.mp4"} type="video/mp4" />
             </video>
           </div>
         </div>
