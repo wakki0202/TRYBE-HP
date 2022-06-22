@@ -66,7 +66,18 @@ const Home: NextPage = () => {
       <main className='text-gray-700'>
         <div id='firstView' className='w-full'>
 
-          <div className=' h-screen text-center font-bold text-5xl align-middle flex justify-center items-center'><p className='flex justify-center items-center'>人生に浪漫を</p></div>
+          <div className=' h-screen text-center font-bold text-5xl align-middle flex justify-center items-center'>
+            <video
+              loop
+              muted
+              autoPlay
+              playsInline
+              style={{
+                width: "100%",
+              }}>
+              <source src={"P4090050.mp4"} type="video/mp4" />
+            </video>
+          </div>
         </div>
         <div className='  mt-10'>
     
