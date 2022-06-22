@@ -65,9 +65,8 @@ const Home: NextPage = () => {
 
       <main className='text-gray-700'>
         <div id='firstView' className='w-full'>
-          <div className=' text-center font-bold text-5xl align-middle flex justify-center items-center'>
-            a
-          </div>
+
+          <div className=' h-screen text-center font-bold text-5xl align-middle flex justify-center items-center'><p className='flex justify-center items-center'>人生に浪漫を</p></div>
         </div>
         <div className='  mt-10'>
     
