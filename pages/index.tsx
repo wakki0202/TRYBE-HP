@@ -66,7 +66,7 @@ const Home: NextPage = () => {
       <main className='text-gray-700'>
         <div id='firstView' className='w-full'>
           <div className=' text-center font-bold text-5xl align-middle flex justify-center items-center'>
-            
+            a
           </div>
         </div>
         <div className='  mt-10'>
