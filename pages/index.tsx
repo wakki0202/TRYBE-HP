@@ -9,7 +9,7 @@ import TestCarousel from '../components/Slider';
 import TestCarousel2 from '../components/Slider2';
 import Contactbtn from '../components/Contactbtn';
 import Link from 'next/link';
-
+import YouTube from 'react-youtube';
 
 const Home: NextPage = () => {
   const Projects = [
@@ -55,6 +55,7 @@ const Home: NextPage = () => {
     const projectInfo = { id: project.id, title: project.title, subTitle: project.subTitle, video: project.video, image1: project.image1, image2: project.image2, image3: project.image3, image4: project.image4 };
   })
 
+ 
   return (
     <div>
       <Head>
@@ -66,18 +67,16 @@ const Home: NextPage = () => {
       <main className='text-gray-700'>
         <div id='firstView' className='w-full'>
 
-          <div className=' h-screen text-center font-bold text-5xl align-middle flex justify-center items-center'>
-            <video
-              loop
-              muted
-              autoPlay
-              playsInline
-              style={{
-                width: "100%",
-              }}>
-              <source src={"firstvideo.mp4"} type="video/mp4" />
-            </video>
-          </div>
+          <video
+            loop
+            muted
+            autoPlay
+            playsInline
+            style={{
+              width: "100%",
+            }}>
+            <source src={"trybe-firstview.mp4"} type="video/mp4" />
+          </video>
         </div>
         <div className='  mt-10'>
     
