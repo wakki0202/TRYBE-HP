@@ -14,7 +14,7 @@ const Title: React.FC = () => {
       <h1 className='font-bold text-3xl pt-16 pb-2'>{router.query.title}</h1>
       <h3 className='pb-8'>{router.query.subTitle}</h3>
 
-      <Img src={`${router.query.image1}`} width={900} height={500}></Img>
+      <Img src={`/${router.query.image1}`} width={900} height={500}></Img>
 
       <div className='pt-12 lg:flex lg:pt-14'>
         <div className=' lg:w-2/12 '>
@@ -26,7 +26,7 @@ const Title: React.FC = () => {
         </div>
       </div>
 
-      <Img src={`${router.query.image2}`} width={900} height={500}></Img>
+      <Img src={`/${router.query.image2}`} width={900} height={500}></Img>
 
       <div className='lg:flex pt-10'>
         <div className=' lg:w-2/12 '>
@@ -37,7 +37,7 @@ const Title: React.FC = () => {
           <p className='text-md leading-relaxed pb-24'>{router.query.solutionContent}</p>
         </div>
       </div>
-      <Img src={`${router.query.image3}`} width={900} height={500}></Img>
+      <Img src={`/${router.query.image3}`} width={900} height={500}></Img>
 
 
       <div className='lg:flex pt-10'>
@@ -56,16 +56,10 @@ const Title: React.FC = () => {
 
       </div>
       <div className='flex pt-24 pb-32 list-none'>
-        <div className='w-6/12 lg:w-3/12 text-md'>
-          <h1 className=' text-2xl font-bold text-gray-400'>Link</h1>
-          <li className='pt-3 border-b pb-1'><a href="https://sites.google.com/view/jinrocolosseum/">ウェブサイト</a></li>
-          <li className='pt-3 border-b pb-1'><a href="https://camp-fire.jp/projects/view/243888">クラウドファンディング</a></li>
-          <li className='pt-3 border-b pb-1'><a href="https://jinclo.base.shop/categories/2721013">ショップ</a></li>
-        </div>
         <div className='w-6/12 lg:w-3/12 list-none ml-10'>
           <h1 className=' text-2xl font-bold text-gray-400'>Pertoner</h1>
-          <li className='pt-3'><a href="https://www.daiko-printing.co.jp/">大興印刷株式会社</a></li>
-          <li className='pt-3'><a href="https://lit.link/haraceleb">原セレブ</a></li>
+          <li className='pt-3 border-b'><a href={`${router.query.pertonerlink}`}>{router.query.pertoner}</a></li>
+          <li className='pt-3 border-b'><a href={`${router.query.pertonerlink2}`}>{router.query.pertoner2}</a></li>
         </div>
       </div>
 

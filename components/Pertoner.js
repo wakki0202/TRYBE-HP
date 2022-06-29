@@ -7,10 +7,6 @@ const Pertoner = () => (
       <li className=" text-center"><Image src="/AnyConv.com__fulfilmlogo2-6.bmp" width={250} height={250}></Image></li>
       <li className=" text-center"><Image src="/S__48726021.jpg" width={250} height={250}></Image></li>
       <li className=""><Image src="/TNKlogo.jpg" width={250} height={250}></Image></li>
-
-      <li className=""><Image src="/guideline-ng08.png" width={400} height={200}></Image></li>
-      <li className=""><Image src="/guideline-ng08.png" width={400} height={200}></Image></li>
-      <li className=""><Image src="/guideline-ng08.png" width={400} height={200}></Image></li>
       </ul>
 
 

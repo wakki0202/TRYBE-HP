@@ -58,14 +58,16 @@ const Title: React.FC = () => {
       <div className='flex pt-24 pb-32 list-none'>
         <div className='w-6/12 lg:w-3/12 text-md'>
           <h1 className=' text-2xl font-bold text-gray-400'>Link</h1>
-          <li className='pt-3 border-b pb-1'><a href="https://sites.google.com/view/jinrocolosseum/">ウェブサイト</a></li>
-          <li className='pt-3 border-b pb-1'><a href="https://camp-fire.jp/projects/view/243888">クラウドファンディング</a></li>
-          <li className='pt-3 border-b pb-1'><a href="https://jinclo.base.shop/categories/2721013">ショップ</a></li>
+          <li className='pt-3 border-b pb-1'><a href="https://isouta1003.wixsite.com/trybe">ウェブサイト</a></li>
+          <li className='pt-3 border-b pb-1'><a href="https://vt.tiktok.com/ZSdYj4NMh/">TikTok</a></li>
         </div>
         <div className='w-6/12 lg:w-3/12 list-none ml-10'>
           <h1 className=' text-2xl font-bold text-gray-400'>Pertoner</h1>
-          <li className='pt-3'><a href="https://www.daiko-printing.co.jp/">大興印刷株式会社</a></li>
-          <li className='pt-3'><a href="https://lit.link/haraceleb">原セレブ</a></li>
+          <li className='pt-3'><a href="https://kids-project.jp/">キッズプロジェクト</a></li>
+          <li className='pt-3'><a href="https://www.instagram.com/fulfilm.jp/?hl=ja">fulfilM</a></li>
+          <li className='pt-3'><a href="https://instagram.com/creatorcamp.official?igshid=YmMyMTA2M2Y=">CreatorCamp</a></li>
+          <li className='pt-3'><a href="https://tnk-base-plathome.themedia.jp/">TNK base</a></li>
+          <li className='pt-3'><a href="https://vision-project.editorx.io/sonia/">SONIA</a></li>
         </div>
       </div>
 

@@ -1,3 +1,4 @@
+import React from "react";
 import styles from "../styles/Home.module.css";
 import { useState } from "react";
 import Router from 'next/router';
@@ -9,8 +10,11 @@ export default function Home() {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
   const [submitted, setSubmitted] = useState(false);
+  const [showModal, setShowModal] = React.useState(false);
   const handleSubmit = (e) => {
+ 
     e.preventDefault();
+    console.log('You clicked submit.');
     console.log("送信中");
     let data = {
       title,
@@ -18,6 +22,7 @@ export default function Home() {
       email,
       message,
     };
+    
     fetch("/api/contact", {
       method: "POST",
       headers: {
@@ -37,6 +42,8 @@ export default function Home() {
       }
     });
   };
+
+
   return (
     <div>
       <div className='w-9/12 m-auto'>
@@ -93,15 +100,75 @@ export default function Home() {
               </textarea>
             </div>
           </formGroup>
-          <div className='text-center mt-10 mb-20 border border-gray-300  w-9/12 lg:w-7/12 m-auto py-5 hover:bg-gray-700 hover:text-white duration-200'>
-            <Link href='/contact'><a type="submit" 
-              onClick={(e) => {
-                handleSubmit(e);
-                confirm('入力していただいた内容を送信します。よろしいですか？')
-              }} className='font-bold'>送信する</a></Link>
-          </div>
         </form>
+        
+        <div className="text-center"> 
+        <button
+          className=" mt-10 mb-20 border border-gray-300  w-9/12 lg:w-7/12 m-auto py-5 hover:bg-gray-700 hover:text-white duration-200 font-bold"
+          type="button"
+          onClick={() => setShowModal(true)}
+        >
+          送信する
+          </button>
+        </div>
+
+        {showModal ? (
+          <>
+            <div
+              className="justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none"
+            >
+              <div className="relative w-auto my-6 mx-auto max-w-3xl">
+                {/*content*/}
+                <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
+                  {/*header*/}
+                  <div className="flex items-start justify-between p-5  border-solid border-slate-200 rounded-t">
+                    <h3 className="text-3xl font-semibold">
+                    </h3>
+                    <button
+                      className="p-1 ml-auto bg-transparent border-0 text-black opacity-5 float-right text-3xl leading-none font-semibold outline-none focus:outline-none"
+                      onClick={() => setShowModal(false)}
+                    >
+                      <span className="bg-transparent text-black opacity-5 h-6 w-6 text-2xl block outline-none focus:outline-none">
+                        ×
+                      </span>
+                    </button>
+                  </div>
+                  {/*body*/}
+                  <div className="relative p-6 flex-auto">
+                    <p className="my-4 text-slate-500 text-lg leading-relaxed">
+                      送信します。よろしいですか？
+                    </p>
+                  </div>
+                  {/*footer*/}
+                  <div className="flex items-center justify-end p-6  border-solid border-slate-200 rounded-b">
+                    <button
+                      className="text-red-500 background-transparent font-bold uppercase px-6 py-2 text-sm outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+                      type="button"
+                      onClick={() => setShowModal(false)}
+                    >
+                      キャンセル
+                    </button>
+                    <button
+                      className="bg-emerald-500 text-white active:bg-emerald-600 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+                      type="submit"
+                      onClick={(e) => {
+                        handleSubmit(e);
+                      }} 
+                    >
+                      送信する
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="opacity-25 fixed inset-0 z-40 bg-black"></div>
+          </>
+        ) : null}
+
+        
       </div>
+
+      
     </div>
   );
 }

@@ -48,20 +48,37 @@ const StatusPage: NextPage<StatusPageProps> = (props) => {
               <p className='lg:hidden text-xs  leading-relaxed  font-bold'>{router.query.tel}</p>
               <p className='lg:hidden text-xs  leading-relaxed pb-6 font-bold'>{router.query.email}</p>
               <div className='flex '>
-                <Link href={`${router.query.twitter}`}>
+
+                {router.query.twitter 
+                ? <Link href={`${router.query.twitter}`}>
                   <a >
                   <p className='text-md '>
                     <FontAwesomeIcon icon={faTwitter} width={20} />
                     </p>
                   </a>
-                </Link>
-                <Link href={`${router.query.instagram}`}>
-                  <a>
-                    <p className='text-md pl-3 '>
-                      <FontAwesomeIcon icon={faInstagram} width={20} />
-                    </p>
-                  </a>
-                </Link>
+                  </Link>
+                  
+                  : <div className='hidden'></div>
+                }
+
+                {router.query.instagram
+                ? <Link href={`${router.query.instagram}`}>
+                      <a>
+
+                      {router.query.twitter 
+                        ?<p className='text-md pl-3 '>
+                          <FontAwesomeIcon icon={faInstagram} width={20} />
+                        </p>
+                        :<p className='text-md '>
+                          <FontAwesomeIcon icon={faInstagram} width={20} />
+                        </p>
+                      }
+                        
+                    </a>
+                  </Link>
+
+                :<div className='hidden'></div>}
+                
               </div>
             </div>
             

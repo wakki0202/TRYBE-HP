@@ -9,7 +9,7 @@ export default function sendmail(req, res) {
     auth: {
       user: "ytk.jagaimo@gmail.com",
       // Googleアカウントでアプリパスワードを取得して入れる
-      pass: 'knabpmwfozpohzju',
+      pass: 'toqyaziwraxbnrsd',
     },
     secure: true,
   });
