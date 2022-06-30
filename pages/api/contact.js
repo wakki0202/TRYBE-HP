@@ -1,5 +1,6 @@
 import { createTransport } from 'nodemailer';
 
+
 export default function sendmail(req, res) {
   //　改行のエスケープシーケンスをbrタグに置換
   const htmlMsg = req.body.message.replaceAll("\n", "<br>")
