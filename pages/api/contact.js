@@ -1,15 +1,16 @@
+import { createTransport } from 'nodemailer';
+
 export default function sendmail(req, res) {
   //　改行のエスケープシーケンスをbrタグに置換
   const htmlMsg = req.body.message.replaceAll("\n", "<br>")
-  let nodemailer = require("nodemailer");
   // 送信用アカウントの設定（ここではGmail）
-  const transporter = nodemailer.createTransport({
+  const transporter = createTransport({
     port: 465,
     host: "smtp.gmail.com",
     auth: {
       user: "ytk.jagaimo@gmail.com",
       // Googleアカウントでアプリパスワードを取得して入れる
-      pass: 'toqyaziwraxbnrsd',
+      pass: 'knabpmwfozpohzju',
     },
     secure: true,
   });
