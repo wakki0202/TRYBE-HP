@@ -27,22 +27,21 @@ const Home: NextPage = () => {
       <main className='text-gray-700'>
         <div id='firstView' className='w-full'>
 
-          <video
+          <video 
+            src='trybe-firstview.mp4'
             loop
             muted
             autoPlay
             playsInline
             style={{
               width: "100%",
-            }}>
-            <source src={"trybe-firstview.mp4"} type="video/mp4" />
-          </video>
+            }} />
         </div>
-        <div className='  mt-10'>
+        <div className=''>
     
           
           <section id="project">
-          <div className=' mt-40 w-10/12 lg:w-9/12 m-auto'>
+          <div className=' mt-20 lg:mt-40 w-10/12 lg:w-9/12 m-auto'>
               <h1 className='text-center mb-12 text-3xl font-bold'>PROJECTS</h1>
               <div>
                 <div className='grid lg:grid-cols-2 gap-2'>
