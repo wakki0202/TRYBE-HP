@@ -19,8 +19,8 @@ const Home: NextPage = () => {
       <main>
         <div className='w-10/12 lg:w-9/12 m-auto font-body'>
           <About />
-            <div className='mt-20'>
-              <h1 className='text-center text-3xl '>Profile</h1>
+            <div className='mt-36'>
+              <h1 className='text-center text-3xl lg:text-4xl font-bold'>Profile</h1>
             <table className='text-sm w-full lg:w-10/12 m-auto mt-10 '>
                 <tr className='py-5 '>
                 <th className='border-b-2 border-black py-4'>会社名</th>
@@ -59,12 +59,12 @@ const Home: NextPage = () => {
               
               </table>
           </div>
-          <div className='mt-20'>
-            <h1 className='text-center text-3xl mb-5'>Partoners</h1>
+          <div className='mt-36'>
+            <h1 className='text-center text-3xl lg:text-4xl mb-5 font-bold'>Partoners</h1>
             <Pertoner />
           </div>
-          <div className='mt-20 mb-10 text-center'>
-            <h1 className='text-center text-3xl mb-5'>Contact</h1>
+          <div className='mt-20 mb-20 text-center'>
+            <h1 className='text-center lg:text-4xl text-3xl mb-5 font-bold'>Contact</h1>
             <Contactbtn />
           </div>
         </div>

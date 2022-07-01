@@ -60,44 +60,14 @@ const Home: NextPage = () => {
 
   const Works = [
     {
-      id: 1,
-      title: "クラファンコンサル",
-      category1: "Corporate",
-      category2: "Education",
-      what: "コンサルティング",
-      whatContent: "クラウドファンディングでカンボジアの小学校に国際貢献する、実践型ビジネス体験プログラム「サムライカレープロジェクトオンライン」のコンサルティングに取り組みました。過去に成功したクラウドファンディン体験をもとに、2時間程度の講義とクラウドファンディングサイトのフィードバックを行いました。実績として、コンサルティングとして関わったプロジェクトのうち4つのプロジェクトが成功しました。",
-      whatContent2: "実績や社会経験も何も持たない学生が、勝負していく一つの手段であるクラウドファンディングの講義を、学生向けに無料で行なっており、学生主体のプロジェクト促進に向け全力で支援・サポートしております。",
-      image1: "/AnyConv.com__IMG_6691.webp",
-      image2: "/AnyConv.com__IMG_6691.webp",
-      image3: "/AnyConv.com__IMG_6691.webp",
-      image4: "/AnyConv.com__IMG_6691.webp"
-   
-    },
-    {
-      id: 2,
-      title: "Career Meeting",
-      category1: "Student",
-      category2: "Education",
-      what: "企画・プロモーション",
-      whatContent: "今現在、環境をはじめとした様々な課題や、テクノロジーによる急激な変化と向き合っています。その状況の中でどのように働き、成長していくのかの前に、知らない仕事や世の中の流れを知っておくことが重要だと考えました。将来に向けて積極的にキャリア形成したい学生から、このままでいいのかと思っている学生までが、20代で成長するための一歩を踏み出すきっかけとなるイベントです。大手企業とスタートアップ双方に通じた人事のスペシャリストや、現役インターンや新卒採用でスタートアップの世界に入り活躍する社員の方などを招き、リアルな社会をお伝えしていただきました。TRYBEは「Career Meeting」の企画・プロモーションに携わりました。",
-      image1: "/AnyConv.com__IMG_6691.webp",
-      image2: "/AnyConv.com__IMG_6691.webp",
-      image3: "/AnyConv.com__IMG_6691.webp",
-      image4: "/AnyConv.com__IMG_6691.webp",
-      video: "C0129.mp4"
-    },
-    {
       id: 3,
       title: "ロボットストリート",
       category1: "Plannning",
       category2: "Entertainment",
       what: "企画・開発・運営",
       whatContent: "子供たちがテクノロジー体験できる場所として、Gather.Townのバーチャル空間の中で、自分のキャラクターを動かし、秘密の屋上を目指す「ロボットストリート」の企画・開発・運営を行いました。ロボットストリートの中には、脱出ゲーム、⚪︎×クイズ、謎解きなどのコンテンツが用意されており、子供たちがバーチャル空間の中で遊んでる様子が伺えました。その他に、ロボットの操作、プログラミング、電子工作などのワークショップやセミナーなども同時に開催されていました。",
-      image1: "/S__50216974.jpg",
-      image2: "/AnyConv.com__IMG_6691.webp",
-      image3: "/AnyConv.com__IMG_6691.webp",
-      image4: "/AnyConv.com__IMG_6691.webp",
-      
+      image1: "/S__50216974.jpg"
+
     },
     {
       id: 4,
@@ -110,7 +80,7 @@ const Home: NextPage = () => {
       image2: "/AnyConv.com__IMG_6691.webp",
       image3: "/AnyConv.com__IMG_6691.webp",
       image4: "/AnyConv.com__IMG_6691.webp",
-    
+
     },
     {
       id: 5,
@@ -119,12 +89,30 @@ const Home: NextPage = () => {
       category2: "Entertainment",
       what: "企画・運営",
       whatContent: "プログラミングや電子工作など、テクノロジーを遊びながら学び、子どもたちの夢や自信のきっかけをつくる体験型ワークショップイベントの企画・運営を行いました。クラスター株式会社が企画・開発・運営を行う、バーチャル空間に集まって遊ぶことができるメタバースプラットフォーム「cluster」を使用し、子どもたちが遊ぶことができる企画開発に携わりました。「cluster」内のバーチャル空間と、未来& 先端テクノロジー体験施設「Robo & Peace」内のリアル空間を掛け合わせた、バーチャルとリアルが同時に進行する企画です。 ",
-      image1: "/S__50216973.jpg",
-      image2: "/AnyConv.com__IMG_6691.webp",
-      image3: "/AnyConv.com__IMG_6691.webp",
-      image4: "/AnyConv.com__IMG_6691.webp",
- 
+      image1: "/S__50216973.jpg"
+
     },
+    {
+      id: 1,
+      title: "クラファンコンサル",
+      category1: "Corporate",
+      category2: "Education",
+      what: "コンサルティング",
+      whatContent: "クラウドファンディングでカンボジアの小学校に国際貢献する、実践型ビジネス体験プログラム「サムライカレープロジェクトオンライン」のコンサルティングに取り組みました。過去に成功したクラウドファンディン体験をもとに、2時間程度の講義とクラウドファンディングサイトのフィードバックを行いました。実績として、コンサルティングとして関わったプロジェクトのうち4つのプロジェクトが成功しました。",
+      whatContent2: "実績や社会経験も何も持たない学生が、勝負していく一つの手段であるクラウドファンディングの講義を、学生向けに無料で行なっており、学生主体のプロジェクト促進に向け全力で支援・サポートしております。",
+      image1: "/cf_thum.png"
+   
+    },
+    {
+      id: 2,
+      title: "Career Meeting",
+      category1: "Student",
+      category2: "Education",
+      what: "企画・プロモーション",
+      whatContent: "今現在、環境をはじめとした様々な課題や、テクノロジーによる急激な変化と向き合っています。その状況の中でどのように働き、成長していくのかの前に、知らない仕事や世の中の流れを知っておくことが重要だと考えました。将来に向けて積極的にキャリア形成したい学生から、このままでいいのかと思っている学生までが、20代で成長するための一歩を踏み出すきっかけとなるイベントです。大手企業とスタートアップ双方に通じた人事のスペシャリストや、現役インターンや新卒採用でスタートアップの世界に入り活躍する社員の方などを招き、リアルな社会をお伝えしていただきました。TRYBEは「Career Meeting」の企画・プロモーションに携わりました。",
+      image1: "/23388908_s.jpg"
+    },
+   
   ];
   Projects.map((project) => {
     // userの情報
@@ -132,7 +120,7 @@ const Home: NextPage = () => {
   })
   Works.map((work) => {
     // userの情報
-    const workInfo = { id: work.id, title: work.title, video: work.video, image1: work.image1, image2: work.image2, image3: work.image3, image4: work.image4, what: work.what, whatContent: work.whatContent, whatContent2: work.whatContent2 };
+    const workInfo = { id: work.id, title: work.title, image1: work.image1, image2: work.image2, image3: work.image3, image4: work.image4, what: work.what, whatContent: work.whatContent, whatContent2: work.whatContent2 };
   })
   return (
     <div>
@@ -213,7 +201,6 @@ const Home: NextPage = () => {
                   image2: work.image2,
                   image3: work.image3,
                   image4: work.image4,
-                  video: work.video,
                   what: work.what,
                   whatContent: work.whatContent,
                   whatContent2: work.whatContent2
