@@ -61,7 +61,7 @@ export default function Home() {
                   setTitle(e.target.value);
                 }}
                 name="title" className='w-full bg-gray-100 p-1 h-14 lg:h-16' id="" >
-                <option disabled>選択してください</option>
+                <option value={"未記入"}>選択してください</option>
                 <option value="仕事に関するお問い合わせ">仕事に関するお問い合わせ</option>
                 <option value="業務提携・アライアンスの関するお問い合わせ">業務提携・アライアンスの関するお問い合わせ</option>
                 <option value="講演・取材に関するお問い合わせ">講演・取材に関するお問い合わせ</option>
