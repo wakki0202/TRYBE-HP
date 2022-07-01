@@ -64,7 +64,7 @@ const Home: NextPage = () => {
             <Pertoner />
           </div>
           <div className='mt-20 mb-20 text-center'>
-            <h1 className='text-center lg:text-4xl text-3xl mb-5 font-bold'>Contact</h1>
+            <h1 className='text-center lg:text-4xl text-3xl mb-14 font-bold'>Contact</h1>
             <Contactbtn />
           </div>
         </div>

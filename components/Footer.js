@@ -10,11 +10,11 @@ const Footer = () => (
       <div >
         <div className=''>
           <ul className=' lg:flex lg:justify-center mt-5'>
-            <Link href={"/"}><a><li className='px-2'>Top</li></a></Link>
-            <Link href={"/about"}><a><li className='px-2'>About</li></a></Link>
-            <Link href={"/projects"}><a><li className='px-2'>Projects</li></a></Link>
-            <Link href={"/members"}><a><li className='px-2'>Members</li></a></Link>
-            <Link href={"/contact"}><a><li className='px-2'>Contact</li></a></Link>
+            <Link href={"/"}><a><li className='px-2 hover:text-blue-400'>Top</li></a></Link>
+            <Link href={"/about"}><a><li className='px-2 hover:text-blue-400'>About</li></a></Link>
+            <Link href={"/projects"}><a><li className='px-2 hover:text-blue-400'>Projects</li></a></Link>
+            <Link href={"/members"}><a><li className='px-2 hover:text-blue-400'>Members</li></a></Link>
+            <Link href={"/mail"}><a><li className='px-2 hover:text-blue-400'>Contact</li></a></Link>
           </ul>
         </div>
       </div>
