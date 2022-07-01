@@ -28,7 +28,7 @@ const Home: NextPage = () => {
       .then((res) => {
         console.log('Response received');
         if (res.status === 200) {
-          Router.push('/');
+          Router.push('/complete');
           console.log('Response succeeded!');
           
         } else {

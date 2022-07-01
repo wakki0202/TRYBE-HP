@@ -14,7 +14,7 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
 
   const data = JSON.parse(req.body);
   await transporter.sendMail({
-    from: "info@trybe.co.jp",
+    from: '株式会社TRYBE<noreply@example.com>',
     to: data.email,
     subject: '以下の内容でお問い合わせを受け付けました',
     text: `
@@ -32,8 +32,8 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
     `,
   });
   await transporter.sendMail({
-    from: 'sender@mail.com',
-    to: "ytk0202@docomo.ne.jp",
+    from: '株式会社TRYBE<noreply@example.com>',
+    to: "info@trybe.co.jp",
     subject: `【お問い合わせ】${data.name}様より`,
     text: `
     タイトル
