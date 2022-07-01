@@ -29,9 +29,9 @@ const Home: NextPage = () => {
 
           <video 
             src='trybe-firstview.mp4'
-            loop
-            muted
+            loop     
             autoPlay
+            muted
             playsInline
             style={{
               width: "100%",
