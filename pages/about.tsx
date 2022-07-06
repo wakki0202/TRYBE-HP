@@ -43,24 +43,24 @@ const Home: NextPage = () => {
               </tr>
               
               <tr className=''>
-                <th className='border-b-2 border-black py-4'>Mail</th>
+                <th className='border-b-2 border-black py-4'>Email</th>
                 <td className='text-center border-b border-red'>info@trybe.co.jp</td>
               </tr>
 
               <tr className='py-4'>
-                <th className='border-b-2 border-black'>TEL</th>
+                <th className='border-b-2 border-black'>Tel</th>
                 <td className='text-center border-b border-red  py-4'>08061039185</td>
               </tr>
 
               <tr className=''>
                 <th className='border-b-2 border-black py-4'>住所</th>
-                <td className='text-center border-b border-red'> 〒577-0027 大阪府東大阪市新家中町5-29 TNK base </td>
+                <td className='text-center border-b border-red'> 〒577-0027 大阪府東大阪市新家中町5-29 TNK BASE </td>
               </tr>
               
               </table>
           </div>
           <div className='mt-36'>
-            <h1 className='text-center text-3xl lg:text-4xl mb-5 font-bold'>Partoners</h1>
+            <h1 className='text-center text-3xl lg:text-4xl mb-5 font-bold'>Partners</h1>
             <Pertoner />
           </div>
           <div className='mt-20 mb-20 text-center'>

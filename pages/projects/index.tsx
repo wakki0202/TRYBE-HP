@@ -131,7 +131,7 @@ const Home: NextPage = () => {
       </Head>
       <main className='font-body mt-24 mb-20 w-9/12 m-auto'>
         <section id="projects">
-          <h1 className='text-center mb-12 text-4xl font-bold'>PROJECTS</h1>
+          <h1 className='text-center mb-12 text-4xl font-bold'>Projects</h1>
 
 
           <div>
@@ -179,7 +179,7 @@ const Home: NextPage = () => {
                         <p className="inline text-xs bg-black text-white py-1 px-3 rounded-xl ml-2">{project.category2}</p>
                         <h1 className="font-bold text-2xl py-3">{project.title}</h1>
                         <h2 className="font-medium text-md">{project.subTitle}</h2>
-                        <p className="pt-5 font-normal">and more</p>
+                        <p className="pt-5 font-normal">And more</p>
                       </div>
                     </a>
                     </Link>
@@ -190,7 +190,7 @@ const Home: NextPage = () => {
           </div>
         </section>
         <section id="works">
-          <h1 className='text-center mb-12 text-4xl font-bold'>WORKS</h1>
+          <h1 className='text-center mb-12 text-4xl font-bold'>Works</h1>
           <div>
             <div className='grid lg:grid-cols-2 gap-2'>
               {Works.map((work) => {
@@ -207,15 +207,16 @@ const Home: NextPage = () => {
                 };
                 return (
                   <div key={work.id} className='  mb-12'>
-                    <div className='w-full'>
-                      <Img src={work.image1} width="800" height="450"></Img> 
-                      </div>
+                    
                     <Link as={`/works/${work.id}`} href={{ pathname: `/works/[id]`, query: workInfo }} ><a>
+                      <div className='w-full'>
+                        <Img src={work.image1} width="800" height="450" className='hover:opacity-50'></Img>
+                      </div>
                       <div className="mt-2">
                         <p className="inline text-xs bg-black text-white py-1 px-3 rounded-xl">{work.category1}</p>
                         <p className="inline text-xs bg-black text-white py-1 px-3 rounded-xl ml-2">{work.category2}</p>
                         <h1 className="font-bold text-2xl py-3">{work.title}</h1>
-                        <p className="pt-5 font-normal">and more</p>
+                        <p className="pt-5 font-normal">And more</p>
                       </div>
                     </a>
                     </Link>

@@ -2,7 +2,7 @@ import Img from 'next/image';
 const About = () => (
 
   <div className='mt-32  font-body'>
-    <h1 className='text-3xl lg:text-4xl font-bold mb-6 text-center lg:mb-12 '>ABOUT</h1>
+    <h1 className='text-3xl lg:text-4xl font-bold mb-6 text-center lg:mb-12 '>About</h1>
     <h1 className=' text-2xl font-bold my-16 leading-normal  lg:text-5xl lg:leading-relaxed'>『好き』を好きだと言い続けられる社会へ</h1>
     <p className='text-lg lg:text-2xl  leading-relaxed font-semibold'>
       『TRYBE Inc.は学生起業である。』

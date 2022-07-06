@@ -225,7 +225,7 @@ const Home: NextPage = () => {
 
       <main className='bg-gray-100'> 
         <div className='w-9/12 m-auto pb-14 '>
-          <h1 className='pt-24 mb-12 text-4xl font-bold text-center '>ALL MEMBER</h1>
+          <h1 className='pt-24 mb-12 text-4xl font-bold text-center '>Members</h1>
         <ul className="  
  lg:grid lg:grid-cols-3 lg:gap-1 lg:flex-wrap">
             {members.map((member) => {

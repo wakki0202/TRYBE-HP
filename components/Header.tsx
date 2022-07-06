@@ -13,14 +13,14 @@ const solutions = [
     icon: HomeIcon,
   },
   {
-    name: 'About us',
+    name: 'About',
     description: 'Speak directly to your customers in a more meaningful way.',
     href: '/about',
     icon: OfficeBuildingIcon,
   },
   { name: 'Projects', description: "Your customers' data will be safe and secure.", href: '/projects', icon: DesktopComputerIcon },
   {
-    name: 'Member',
+    name: 'Members',
     description: "Connect with third-party tools that you're already using.",
     href: '/members',
     icon: UserGroupIcon,
@@ -60,19 +60,19 @@ const Header: React.FC = () => {
           </div>
           <Popover.Group as="nav" className="hidden md:flex space-x-10">
 
-            <Link href={"/"}><a className="text-base font-medium text-white hover:text-gray-500">
+            <Link href={"/"}><a className="text-base font-medium text-white hover:text-blue-400">
               Top
             </a></Link>
-            <Link href={"/about"}><a className="text-base font-medium text-white hover:text-gray-500">
+            <Link href={"/about"}><a className="text-base font-medium text-white hover:text-blue-400">
               About
             </a></Link>
-            <Link href={"/projects"}><a className="text-base font-medium text-white hover:text-gray-500">
-              Project
+            <Link href={"/projects"}><a className="text-base font-medium text-white hover:text-blue-400">
+              Projects
             </a></Link>
-            <Link href={"/members"}><a className="text-base font-medium text-white hover:text-gray-500">
-              Member
+            <Link href={"/members"}><a className="text-base font-medium text-white hover:text-blue-400">
+              Members
             </a></Link>
-            <Link href={"/mail"}><a className="text-base font-medium text-white hover:text-gray-500">
+            <Link href={"/mail"}><a className="text-base font-medium text-white hover:text-blue-400">
               Contact
             </a></Link>
 

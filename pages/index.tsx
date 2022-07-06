@@ -42,7 +42,7 @@ const Home: NextPage = () => {
           
           <section id="project">
           <div className=' mt-20 lg:mt-40 w-10/12 lg:w-9/12 m-auto'>
-              <h1 className='text-center mb-12 text-3xl font-bold'>PROJECTS</h1>
+              <h1 className='text-center mb-12 text-3xl font-bold'>Projects</h1>
               <div>
                 <div className='grid lg:grid-cols-2 gap-2'>
                     <Jinro />
@@ -70,22 +70,22 @@ const Home: NextPage = () => {
 
           <section id="member">
           <div className='mt-20 lg:mt-32 w-12/12'>
-            <h1 className='text-3xl font-bold mb-6 text-center lg:mb-12 lg:text-4xl'>MEMBER</h1>
+            <h1 className='text-3xl font-bold mb-6 text-center lg:mb-12 lg:text-4xl'>Members</h1>
             <Img src="/AnyConv.com__F38C102E-8F38-483F-82F5-0298ECA82882-42833-0000072A15617AB1.webp" width={1800} height={1000}></Img>
-            <div className="pt-5 font-bold lg:text-3xl  text-lg text-right"><Link href={"members"}><a className=''>All Member ＞</a></Link></div>
+            <div className="pt-5 font-bold lg:text-3xl  text-lg text-right"><Link href={"members"}><a className=''>All Members ＞</a></Link></div>
           </div>
           </section>
 
 
           <div className=' lg:mt-40 mt-20 w-10/12 lg:w-9/12 m-auto'>
-            <h1 className='text-3xl font-bold mb-6 text-center lg:mb-12 lg:text-4xl'>OUR CLIENTS</h1>
+            <h1 className='text-3xl font-bold mb-6 text-center lg:mb-12 lg:text-4xl'>Partners</h1>
             <Pertoner />
           </div>
 
 
 
           <div className=' lg:mt-40 mt-20 text-center mb-20 w-10/12 lg:w-9/12 m-auto'>
-            <h1 className='text-3xl font-bold mb-8 lg:mb-12 text-center lg:text-4xl'>CONTACT</h1>
+            <h1 className='text-3xl font-bold mb-8 lg:mb-12 text-center lg:text-4xl'>Contact</h1>
             <Contactbtn />
           </div>
 

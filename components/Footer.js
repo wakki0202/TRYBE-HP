@@ -5,7 +5,7 @@ const Footer = () => (
 
     <nav className=" bg-black  text-white pt-5 ">
       <div className='text-center'>
-        <h1 className='text-2xl '>TRYBE.inc</h1>
+        <h1 className='text-2xl '>TRYBE Inc.</h1>
       </div>
       <div >
         <div className=''>

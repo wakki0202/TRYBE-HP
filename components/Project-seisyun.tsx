@@ -13,8 +13,8 @@ const Seishun = () => (
     </div>
     <Link href={`/projects/seishun`} ><a>
       <div className=' grid grid-cols-2 gap-2 pt-2'>
-        <Img src={`/seishuntop-1.jpg`} className='w-full' width={600} height={380} ></Img>
-        <Img src={`/seishuntop-2.jpg`} className='w-full' width={600} height={380} ></Img>
+        <Img src={`/seishuntop-1.jpg`} className='w-full hover:opacity-50' width={600} height={380} ></Img>
+        <Img src={`/seishuntop-2.jpg`} className='w-full hover:opacity-50' width={600} height={380} ></Img>
       </div>
       <div className="mt-2">
         <p className="inline text-xs bg-black text-white py-1 px-3 rounded-xl">Education</p>
