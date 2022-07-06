@@ -8,7 +8,7 @@ const Jinro = () => (
       
     <Link href={`/projects/jinro`} ><a>
       <div className='w-full'>
-        <div className='bg-black hover:bg-gray-600 text-white lg:h-80 h-48 text-center text-2xl lg:text-3xl align-middle flex justify-center items-center'><p className='flex justify-center items-center font-bold leading-10'>Jinro Colosseum PV <br />Coming Soon</p></div>
+        <div className='bg-black hover:bg-gray-600 text-white lg:h-80 h-48 text-center text-2xl lg:text-3xl align-middle flex justify-center items-center'><p className='flex justify-center items-center font-bold leading-10'>Jinro Colosseum PV <br />Coming Soon...</p></div>
       </div>
         <div className=' grid grid-cols-2 gap-2 pt-2 '>
         <Img src={`/jinrotop1.jpg`} className='w-full hover:opacity-50' width={600} height={380} ></Img>
