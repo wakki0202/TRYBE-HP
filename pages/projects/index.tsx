@@ -5,6 +5,7 @@ import Link from 'next/link'
 import { type } from 'os'
 import Jinro from '../../components/Project-jinro'
 import Seishun from '../../components/Project-seisyun'
+import Works from '../../components/Works'
 import ProjectCard from '../../components/Project'
 import ProjectContent from '../../components/ProjectContent'
 const Home: NextPage = () => {
@@ -58,69 +59,9 @@ const Home: NextPage = () => {
   ];
 
 
-  const Works = [
-    {
-      id: 3,
-      title: "ロボットストリート",
-      category1: "Plannning",
-      category2: "Entertainment",
-      what: "企画・開発・運営",
-      whatContent: "子供たちがテクノロジー体験できる場所として、Gather.Townのバーチャル空間の中で、自分のキャラクターを動かし、秘密の屋上を目指す「ロボットストリート」の企画・開発・運営を行いました。ロボットストリートの中には、脱出ゲーム、⚪︎×クイズ、謎解きなどのコンテンツが用意されており、子供たちがバーチャル空間の中で遊んでる様子が伺えました。その他に、ロボットの操作、プログラミング、電子工作などのワークショップやセミナーなども同時に開催されていました。",
-      image1: "/S__50216974.jpg"
-
-    },
-    {
-      id: 4,
-      title: "セキスイカルタ",
-      category1: "Plannning",
-      category2: "Entertainment",
-      what: "企画・開発",
-      whatContent: "私たちの生活は積水化学工業様の、環境に配慮し開発された製品に支えられています。 SDGsに大変力を入れてい事業に取り組まれています。そして今後の日本を担っていく小学生に、SDGsそのものやSDGs貢献の重要性などを伝えていきたいと思いました。ですが、小学生はSDGsに触れたこともなければ、興味もない。そんな小学生にSDGsへの貢献について伝えていくことに課題を感じていました。そこで、誰もが経験したことがある、「カルタ」を用いたゲーミフィケーションを通して、小学生にSDGsを分かりやすく楽しんでもらえるようなコンテンツの開発に取り組みました。",
-      image1: "/sekisui.jpg",
-      image2: "/AnyConv.com__IMG_6691.webp",
-      image3: "/AnyConv.com__IMG_6691.webp",
-      image4: "/AnyConv.com__IMG_6691.webp",
-
-    },
-    {
-      id: 5,
-      title: "Kids tech EXPO",
-      category1: "Plannning",
-      category2: "Entertainment",
-      what: "企画・運営",
-      whatContent: "プログラミングや電子工作など、テクノロジーを遊びながら学び、子どもたちの夢や自信のきっかけをつくる体験型ワークショップイベントの企画・運営を行いました。クラスター株式会社が企画・開発・運営を行う、バーチャル空間に集まって遊ぶことができるメタバースプラットフォーム「cluster」を使用し、子どもたちが遊ぶことができる企画開発に携わりました。「cluster」内のバーチャル空間と、未来& 先端テクノロジー体験施設「Robo & Peace」内のリアル空間を掛け合わせた、バーチャルとリアルが同時に進行する企画です。 ",
-      image1: "/S__50216973.jpg"
-
-    },
-    {
-      id: 1,
-      title: "クラファンコンサル",
-      category1: "Corporate",
-      category2: "Education",
-      what: "コンサルティング",
-      whatContent: "クラウドファンディングでカンボジアの小学校に国際貢献する、実践型ビジネス体験プログラム「サムライカレープロジェクトオンライン」のコンサルティングに取り組みました。過去に成功したクラウドファンディン体験をもとに、2時間程度の講義とクラウドファンディングサイトのフィードバックを行いました。実績として、コンサルティングとして関わったプロジェクトのうち4つのプロジェクトが成功しました。",
-      whatContent2: "実績や社会経験も何も持たない学生が、勝負していく一つの手段であるクラウドファンディングの講義を、学生向けに無料で行なっており、学生主体のプロジェクト促進に向け全力で支援・サポートしております。",
-      image1: "/cf_thum.png"
-   
-    },
-    {
-      id: 2,
-      title: "Career Meeting",
-      category1: "Student",
-      category2: "Education",
-      what: "企画・プロモーション",
-      whatContent: "今現在、環境をはじめとした様々な課題や、テクノロジーによる急激な変化と向き合っています。その状況の中でどのように働き、成長していくのかの前に、知らない仕事や世の中の流れを知っておくことが重要だと考えました。将来に向けて積極的にキャリア形成したい学生から、このままでいいのかと思っている学生までが、20代で成長するための一歩を踏み出すきっかけとなるイベントです。大手企業とスタートアップ双方に通じた人事のスペシャリストや、現役インターンや新卒採用でスタートアップの世界に入り活躍する社員の方などを招き、リアルな社会をお伝えしていただきました。TRYBEは「Career Meeting」の企画・プロモーションに携わりました。",
-      image1: "/23388908_s.jpg"
-    },
-   
-  ];
   Projects.map((project) => {
     // userの情報
     const projectInfo = { id: project.id, title: project.title, subTitle: project.subTitle, image1: project.image1, image2: project.image2, image3: project.image3, image4: project.image4, pertoner: project.pertoner, pertoner2: project.pertoner2, pertonerlink: project.pertonerlink, pertonerlink2: project.pertonerlink2 };
-  })
-  Works.map((work) => {
-    // userの情報
-    const workInfo = { id: work.id, title: work.title, image1: work.image1, image2: work.image2, image3: work.image3, image4: work.image4, what: work.what, whatContent: work.whatContent, whatContent2: work.whatContent2 };
   })
   return (
     <div>
@@ -190,41 +131,7 @@ const Home: NextPage = () => {
           </div>
         </section>
         <section id="works">
-          <h1 className='text-center mb-12 text-4xl font-bold'>Works</h1>
-          <div>
-            <div className='grid lg:grid-cols-2 gap-2'>
-              {Works.map((work) => {
-                const workInfo = {
-                  id: work.id,
-                  title: work.title,
-                  image1: work.image1,
-                  image2: work.image2,
-                  image3: work.image3,
-                  image4: work.image4,
-                  what: work.what,
-                  whatContent: work.whatContent,
-                  whatContent2: work.whatContent2
-                };
-                return (
-                  <div key={work.id} className='  mb-12'>
-                    
-                    <Link as={`/works/${work.id}`} href={{ pathname: `/works/[id]`, query: workInfo }} ><a>
-                      <div className='w-full'>
-                        <Img src={work.image1} width="800" height="450" className='hover:opacity-50'></Img>
-                      </div>
-                      <div className="mt-2">
-                        <p className="inline text-xs bg-black text-white py-1 px-3 rounded-xl">{work.category1}</p>
-                        <p className="inline text-xs bg-black text-white py-1 px-3 rounded-xl ml-2">{work.category2}</p>
-                        <h1 className="font-bold text-2xl py-3">{work.title}</h1>
-                        <p className="pt-5 font-normal">And more</p>
-                      </div>
-                    </a>
-                    </Link>
-                  </div>
-                );
-              })}
-            </div>
-          </div>
+        <Works />
         </section>
       </main>
     </div>

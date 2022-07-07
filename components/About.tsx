@@ -29,10 +29,10 @@ const About = () => (
         <p>『好きなことを好きだと言える社会へ』</p>
       </div>
       <div className='lg:w-5/12 mb-16 text-center hidden lg:block'>
-        <Img src="/AnyConv.com__threeValue.webp" width={850} height={700}></Img>
+        <Img src="/trybe-vision.png" width={850} height={700}></Img>
       </div>
       <div className='lg:w-5/12 mb-16 text-center lg:hidden'>
-        <Img src="/AnyConv.com__threeValue.webp" width={600} height={500}></Img>
+        <Img src="/trybe-vision.png" width={600} height={500}></Img>
       </div>
     </div>
   </div>
