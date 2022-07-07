@@ -8,7 +8,7 @@ const Title: React.FC = () => {
   const router = useRouter();
   return (
     <div className='w-10/12 lg:w-8/12 m-auto'>
-      <h1 className='font-bold text-4xl pt-16 pt-16 '>セキスイカルタ</h1>
+      <h1 className='font-bold text-4xl pb-8 pt-16 '>セキスイカルタ</h1>
       <Img src={`/sekisui.jpg`} width={900} height={500}></Img>
       <div className='lg:flex pt-10'>
         <div className=' lg:w-2/12 '>
