@@ -19,7 +19,7 @@ const Jinro = () => (
           <p className="inline text-xs bg-black text-white py-1 px-3 rounded-xl ml-2">Entertainment</p>
           <h1 className="font-bold text-2xl py-3">人狼コロシアム</h1>
           <h2 className="font-medium text-md">高校の休み時間を取り戻すために生まれたボードゲーム</h2>
-          <p className="pt-5 font-normal">and more</p>
+          <p className="pt-5 font-normal">And more</p>
         </div>
       </a>
       </Link>

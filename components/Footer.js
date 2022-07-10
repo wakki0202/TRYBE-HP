@@ -3,7 +3,7 @@ import Link from 'next/link';
 const Footer = () => (
   <div>
 
-    <nav className=" bg-black  text-white pt-5 ">
+    <nav className=" bg-[#4a9ed8]  text-white pt-5 ">
       <div className='text-center'>
         <h1 className='text-2xl '>TRYBE Inc.</h1>
       </div>
@@ -19,7 +19,7 @@ const Footer = () => (
         </div>
       </div>
       <div>
-        <p className='text-center text-xs border-t border-gray-700 pt-1 pb-1 mt-8'>© 2019 TRYBE Inc.</p>
+        <p className='text-center text-xs border-t border-gray-200 border-gray-700 py-1 mt-8'>© 2019 TRYBE Inc.</p>
       </div>
     </nav>
 

@@ -12,7 +12,7 @@ const Title: React.FC = () => {
   return (
     <div className='w-10/12 lg:w-8/12 m-auto'>
       <h1 className='font-bold text-3xl pt-16 pb-2'>青春奪還作戦</h1>
-      <h3 className='pb-8'>高校を舞台にした全国キャリアイベント</h3>
+      <h3 className='pb-8'>もしも一度だけ、あの日に戻れるのなら</h3>
 
       <Img src={`/seishuntop-1.jpg`} width={900} height={500}></Img>
 

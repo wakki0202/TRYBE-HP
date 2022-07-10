@@ -5,6 +5,11 @@ module.exports = {
   purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {
+      
+      backgroundColor: {
+        main: ["#4a9ed8"]
+        }
+      ,
       fontFamily: {
         NSJ: ["Noto Sans JP"] ,
         gothic: [
