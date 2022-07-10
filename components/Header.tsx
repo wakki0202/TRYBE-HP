@@ -49,7 +49,7 @@ const Header: React.FC = () => {
     <Popover className="relative bg-[#4a9ed8] text-white hover:text-blue-300">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 text-white">
         <div className="flex justify-between items-center  py-6 md:justify-start md:space-x-10">
-          <div className="flex justify-start lg:w-0 lg:flex-1">
+          <div className="flex justify-start ">
             <Link href={"/"}><a className="text-base font-medium text-white hover:text-gray-400"><h1 className='text-white font-bold text-xl hover:text-gray-400'>TRYBE Inc.</h1></a></Link>
           </div>
           <div className="-mr-2 -my-2 md:hidden">
