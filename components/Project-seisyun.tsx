@@ -21,7 +21,7 @@ const Seishun = () => (
         <p className="inline text-xs bg-black text-white py-1 px-3 rounded-xl ml-2">Entertainment</p>
         <h1 className="font-bold text-2xl py-3">青春奪還作戦</h1>
         <h2 className="font-medium text-md">もしも一度だけ、あの日に戻れるのなら</h2>
-        <p className="pt-5 font-normal">AAnd more</p>
+        <p className="pt-5 font-normal">And more</p>
       </div>
     </a>
     </Link>

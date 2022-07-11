@@ -15,7 +15,7 @@ const Works = () => (
 
               <Link href={"/works/robotstreet"} ><a>
                 <div className='w-full'>
-              <Img src={"/S__50216974.jpg"} width="800" height="450" className='hover:opacity-50'></Img>
+              <Img src={"/rs_pc_top.jpg"} width="800" height="450" className='hover:opacity-50'></Img>
                 </div>
                 <div className="mt-2">
               <p className="inline text-xs bg-black text-white py-1 px-3 rounded-xl">Plannning</p>
@@ -82,8 +82,8 @@ const Works = () => (
         <div className='  mb-12'>
 
           <Link href={"/works/careermeeting"} ><a>
-            <div className='w-full'>
-              <Img src={"/23388908_s.jpg"} width="800" height="450" className='hover:opacity-50'></Img>
+            <div className='w-full border'>
+              <Img src={"/S__51306542.jpg"} width="800" height="450" className='hover:opacity-50 '></Img>
             </div>
             <div className="mt-2">
               <p className="inline text-xs bg-black text-white py-1 px-3 rounded-xl">Student</p>

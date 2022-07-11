@@ -19,7 +19,7 @@ const Footer = () => (
         </div>
       </div>
       <div>
-        <p className='text-center text-xs border-t border-gray-200 border-gray-700 py-1 mt-8'>© 2019 TRYBE Inc.</p>
+        <p className='text-center text-xs border-t border-gray-200 border-gray-200 py-1 mt-8'>© 2019 TRYBE Inc.</p>
       </div>
     </nav>
 

@@ -49,7 +49,7 @@ const Header: React.FC = () => {
     <Popover className="relative bg-[#4a9ed8] text-white hover:text-blue-300">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 text-white">
         <div className="flex justify-between items-center  py-6 md:justify-start md:space-x-10">
-          <div className="flex justify-start ">
+          <div className="flex justify-start lg:w-0 lg:flex-1">
             <Link href={"/"}><a className="text-base font-medium text-white hover:text-gray-400"><h1 className='text-white font-bold text-xl hover:text-gray-400'>TRYBE Inc.</h1></a></Link>
           </div>
           <div className="-mr-2 -my-2 md:hidden">
@@ -58,29 +58,30 @@ const Header: React.FC = () => {
               <MenuIcon className="h-6 w-6" aria-hidden="true" />
             </Popover.Button>
           </div>
-          <Popover.Group as="nav" className="hidden md:flex space-x-10">
-
-            <Link href={"/"}><a className="text-base font-medium text-white hover:text-gray-400">
-              Top
-            </a></Link>
-            <Link href={"/about"}><a className="text-base font-medium text-white hover:text-gray-400">
-              About
-            </a></Link>
-            <Link href={"/projects"}><a className="text-base font-medium text-white hover:text-gray-400">
-              Projects
-            </a></Link>
-            <Link href={"/members"}><a className="text-base font-medium text-white hover:text-gray-400">
-              Members
-            </a></Link>
-            <Link href={"/mail"}><a className="text-base font-medium text-[#4a9ed8] bg-white rounded px-3  hover:text-gray-400">
-              Contact
-            </a></Link>
-
-          </Popover.Group>
+          
 
 
 
           <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
+            <Popover.Group as="nav" className="hidden md:flex space-x-10">
+
+              <Link href={"/"}><a className="text-base font-medium text-white hover:text-gray-400">
+                Top
+              </a></Link>
+              <Link href={"/about"}><a className="text-base font-medium text-white hover:text-gray-400">
+                About
+              </a></Link>
+              <Link href={"/projects"}><a className="text-base font-medium text-white hover:text-gray-400">
+                Projects
+              </a></Link>
+              <Link href={"/members"}><a className="text-base font-medium text-white hover:text-gray-400">
+                Members
+              </a></Link>
+              <Link href={"/mail"}><a className="text-base font-medium text-[#4a9ed8] bg-white rounded px-3  hover:text-gray-400">
+                Contact
+              </a></Link>
+
+            </Popover.Group>
 
 
           </div>

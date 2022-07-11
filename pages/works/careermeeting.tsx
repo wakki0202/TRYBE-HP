@@ -9,7 +9,7 @@ const Title: React.FC = () => {
   return (
     <div className='w-10/12 lg:w-8/12 m-auto'>
       <h1 className='font-bold text-4xl pt-16 pb-8'>Career Meeting</h1>
-      <Img src={`/23388908_s.jpg`} width={900} height={500}></Img>
+      <Img src={`/IMG_0943.JPG`} width={900} height={1300}></Img>
       <div className='lg:flex pt-10'>
         <div className=' lg:w-2/12 '>
           <h1 className='text-4xl pb-2 lg:pb-0 lg:text-2xl font-bold text-gray-400'>What</h1>
