@@ -14,7 +14,7 @@ const Title: React.FC = () => {
       <h1 className='font-bold text-3xl pt-16 pb-2'>人狼コロシアム</h1>
       <h3 className='pb-8'>高校の休み時間を取り戻すために生まれたボードゲーム</h3>
 
-      <Img src={`/jinrotop1.jpg`} width={1200} height={900}></Img>
+      <Img src={`/jinrotop1.jpg`} width={1200} height={850}></Img>
 
       <div className='pt-12 lg:flex lg:pt-14'>
         <div className=' lg:w-2/12 '>
@@ -26,7 +26,7 @@ const Title: React.FC = () => {
         </div>
       </div>
 
-      <Img src={`/jinrotop2.JPG`} width={1000} height={500}></Img>
+      <Img src={`/jinrotop2.JPG`} width={1000} height={600}></Img>
 
       <div className='lg:flex pt-10'>
         <div className=' lg:w-2/12 '>

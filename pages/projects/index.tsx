@@ -5,64 +5,11 @@ import Link from 'next/link'
 import { type } from 'os'
 import Jinro from '../../components/Project-jinro'
 import Seishun from '../../components/Project-seisyun'
+import Yatai from '../../components/Project-yatai'
+import Santa from '../../components/Project-santa'
 import Works from '../../components/Works'
-import ProjectCard from '../../components/Project'
-import ProjectContent from '../../components/ProjectContent'
 const Home: NextPage = () => {
-  const Projects = [
-
-     
-    {
-      id: 3,
-      title: "屋台プロジェクト",
-      subTitle: "あたたかいを届ける屋台",
-      category1: "Entertainment",
-      category2: "Student",
-      issue: "寒さとコロナによる疲弊",
-      issueContent: "2022年冬、COVID-19の影響で、身も心もあたたかさを失いつつあった。コロナウイルス感染に恐れながら満員電車に揺られ出勤する社会人、理想のキャンパスライフとはかけ離れたオンライン授業、行事ごとがことごとく中止になる高校生活。やるせない感情と、どうしようもならない現状との間に挟まれ、多くの人がそのギャップに疲弊していました。", solution: "「温度」「人」「色」で３度温まる味噌汁屋台", solutionContent: "学生や社会人が帰宅する夕刻に合わせて、温かい味噌汁を販売する屋台を動かしました。寒い日に自動販売機であったかい飲み物を購入した時の、あの「ホッ」とする体験を提供するべく、なんら普通の温かい味噌汁を販売。また１から屋台を制作し、どこか歪で、でもどこか親近感のある空間を作りました。デジタルな社会に包まれる今だからこそ、アナログ感溢れる体験を提供し、また屋台は、オレンジなどの暖色をメインに装飾して、安心感と温かさを演出しました。",
-      result: "温かいコミュケーションが飛び交うプラットフォームに",
-      resultContent: "仕事帰りの方。SNSを見て駆けつけてくれた学生。貴社の方。ご近所さんとワンちゃん。 今まで会ったことも話したこともない人たちが、味噌汁と屋台を囲んで和気藹々と触れ合う空間がありました。 また味噌汁で使用された屋台は、他の学生や団体が「事業プラットフォーム」として活用しています。 NPO法人KOKOIMAと関西大学人間健康学部のゼミとの共催イベント、ストリートファッションショーの催し企画や、 東大阪市にあるシェアハウスTNKbase主催の、1から無農薬で作った焼き芋の販売や、菜の花を配るプロジェクトなど さまざまな企画や事業のプラットフォームの一つとして確立しました。", result2: "", resultContent2: "",
-      image1: "misosirutop_1.JPG",
-      image2: "misosirutop_3.JPG",
-      image3: "misosiruresult_2.jpg",
-      image4: "DSC02957.JPG",
-      pertoner: "TNK base",
-      pertoner2: "関西大学人間健康学部",
-      pertonerlink: "https://tnk-base-plathome.themedia.jp/",
-      pertonerlink2: "https://www.kansai-u.ac.jp/Fc_hw/"
-   
-    },
-    {
-      id: 4,
-      title: "サンタ屋",
-      subTitle: "みんなが幸せなクリスマスを",
-      category1: "Entertainment",
-      category2: "Student",
-      issue: "クリスマスは恋人だけのハッピーイベントではない",
-      issueContent: "クリスマスは恋人がとても楽しそうに過ごしています。美味しいディナーを食べて、お互いクリスマスプレゼントを交換し合い、恋人はとても和やかで大事な時間を過ごしているでしょう。ですが、恋人がいない人たちは？その時期になると「非リア」と言われ、SNSに妬みと開き直った投稿が飛び交います。クリスマスは毎月やってくる25日のうちの一つでしかない。恋人がいない人も恋人がいる人も、クリスマスという行事を楽しんでほしいと思いました。",
-      solution: "恩送りの文化から生まれた誰もがサンタさんになれるキッチンカー",
-      solutionContent: "12 / 25に、サンタクロースやトナカイの衣装を着た学生たちが、寒い聖夜の街を歩く人たちに、温かい飲み物でホッと温まる体験を提供し、そして、その売上で街行く子供たちにお菓子をプレゼントしました。この企画は、恩送りの文化を通して、クリスマスという行事をより多くの人に体験してもらい、より多くの人に「幸せだな」「いい一日だな」と感じてほしいという思いで始まりました",
-      result: "子供たちの喜ぶ姿とそれを見守る大人たち",
-      resultContent: "キッチンカーの周りには、未就学児から社会人という、幅広い年齢層の方たちによって賑わいました。 子供たちはお菓子を持ったサンタクロースの周りに集まり、両手が塞がるまでお菓子をかき集めている光景を、 学生や社会人が見守るというとても温かい空間がありました。 お客さんとして当イベントに来た学生の中には、急遽売り子を始める学生や、 サンタクロースの衣装を着て子供と会話を楽しむ学生など、単なる運営とお客さんという関わりで終わらず、 共に空間を作りながらイベントを楽しむことができました。",
-      result2: "",
-      resultContent2: "",
-      image1: "AnyConv.com__S__6185130.webp",
-      image2: "santasolution_1.jpg",
-      image3: "santaresult_1.jpg",
-      image4: "AnyConv.com__S__6185130.webp",
-      pertoner: "WOW FOOD JAM",
-      pertoner2: "株式会社JAMSTORE",
-      pertonerlink: "https://kitchencars-japan.com/k/wowfoodjam",
-      pertonerlink2: "https://jamstore-web.com/"
-     
-    }
-  ];
-
-
-  Projects.map((project) => {
-    // userの情報
-    const projectInfo = { id: project.id, title: project.title, subTitle: project.subTitle, image1: project.image1, image2: project.image2, image3: project.image3, image4: project.image4, pertoner: project.pertoner, pertoner2: project.pertoner2, pertonerlink: project.pertonerlink, pertonerlink2: project.pertonerlink2 };
-  })
+  
   return (
     <div>
       <Head>
@@ -80,53 +27,8 @@ const Home: NextPage = () => {
             <div className='grid lg:grid-cols-2 gap-2'>
               <Jinro />
               <Seishun />
-            </div>
-
-          </div>
-          <div>
-            <div className='grid lg:grid-cols-2 gap-2'>
-              {Projects.map((project) => {
-                const projectInfo = {
-                  id: project.id,
-                  title: project.title,
-                  subTitle: project.subTitle,
-                  issue: project.issue,
-                  issueContent: project.issueContent,
-                  solution: project.solution,
-                  solutionContent: project.solutionContent,
-                  result: project.result,
-                  resultContent: project.resultContent,
-                  result2: project.result2,
-                  resultContent2: project.resultContent2,
-                  image1: project.image1,
-                  image2: project.image2,
-                  image3: project.image3,
-                  image4: project.image4,
-                  pertoner: project.pertoner,
-                  pertoner2: project.pertoner2,
-                  pertonerlink: project.pertonerlink,
-                  pertonerlink2: project.pertonerlink2 
-                };
-                return (
-                  <div key={project.id} className='  mb-12'>
-                    <Link as={`/projects/${project.id}`} href={{ pathname: `/projects/[id]`, query: projectInfo }} ><a>
-                    <div className='w-full block hover:opacity-50'>
-                        <Img src={`/${project.image1}`} width="800" height="450" className='block'></Img> 
-                    </div>
-                    
-                      
-                      <div className="mt-2">
-                        <p className="inline text-xs bg-black text-white py-1 px-3 rounded-xl">{project.category1}</p>
-                        <p className="inline text-xs bg-black text-white py-1 px-3 rounded-xl ml-2">{project.category2}</p>
-                        <h1 className="font-bold text-2xl py-3">{project.title}</h1>
-                        <h2 className="font-medium text-md">{project.subTitle}</h2>
-                        <p className="pt-5 font-normal">And more</p>
-                      </div>
-                    </a>
-                    </Link>
-                  </div>
-                );
-              })}
+              <Yatai />
+              <Santa />
             </div>
           </div>
         </section>

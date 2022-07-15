@@ -7,6 +7,7 @@ import Service from '../components/Service';
 import About from '../components/About';
 import TestCarousel from '../components/Slider';
 import TestCarousel2 from '../components/Slider2';
+import TestCarousel3 from '../components/Swiper3';
 import Contactbtn from '../components/Contactbtn';
 import Jinro from '../components/Project-jinro'
 import Seishun from '../components/Project-seisyun'
@@ -50,11 +51,8 @@ const Home: NextPage = () => {
                 </div>
               </div>
           </div>
-          <div className='mt-20 hidden lg:block'>
-            <TestCarousel />
-          </div>
-          <div className='mt-5 lg:hidden'>
-            <TestCarousel2 />
+          <div className='mt-5 lg:mt-20 '>
+            <TestCarousel3 />
           </div>
           </section>
 
