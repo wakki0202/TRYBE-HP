@@ -1,18 +1,14 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Img from 'next/image'
-import styles from '../styles/Home.module.css'
 import Pertoner from '../components/Pertoner.js';
 import Service from '../components/Service';
 import About from '../components/About';
-import TestCarousel from '../components/Slider';
-import TestCarousel2 from '../components/Slider2';
-import TestCarousel3 from '../components/Swiper3';
+import Slider from '../components/Swiper';
 import Contactbtn from '../components/Contactbtn';
 import Jinro from '../components/Project-jinro'
 import Seishun from '../components/Project-seisyun'
 import Link from 'next/link';
-import YouTube from 'react-youtube';
 
 const Home: NextPage = () => {
  
@@ -52,7 +48,7 @@ const Home: NextPage = () => {
               </div>
           </div>
           <div className='mt-5 lg:mt-20 '>
-            <TestCarousel3 />
+            <Slider />
           </div>
           </section>
 

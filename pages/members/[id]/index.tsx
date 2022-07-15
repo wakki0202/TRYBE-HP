@@ -18,8 +18,7 @@ const StatusPage: NextPage<StatusPageProps> = (props) => {
 
 
   const router = useRouter();
-  const { id
-} = router.query
+  
   return (
     <div className=''>
       <Head>

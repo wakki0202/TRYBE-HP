@@ -5,7 +5,7 @@ import SwiperCore, { Pagination, Navigation, Autoplay } from 'swiper' //使い�
 SwiperCore.use([Pagination, Navigation, Autoplay])
 // カルーセルにする画像のソースをリストにします
 
-const TestCarousel3 = () => {
+const Slider = () => {
   return (
   <div>
     <div className='hidden lg:block'>
@@ -149,7 +149,7 @@ const TestCarousel3 = () => {
     </div>
   )
 }
-export default TestCarousel3;
+export default Slider;
 
 
 
