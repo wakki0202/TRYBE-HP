@@ -64,7 +64,9 @@ const StatusPage: NextPage<StatusPageProps> = (props) => {
             </div>
 
           </div>
-
+          <div className='text-center pb-20 text-xl font-bold'>
+            <Link href={"/members/issei"} ><a >＜ BACK</a></Link>　|　<Link href={"/members"}><a>BACK TO LIST</a></Link><Link href={""}><a className='hidden'>NEXT ＞</a></Link>
+          </div>
         </div>
       </main>
 
