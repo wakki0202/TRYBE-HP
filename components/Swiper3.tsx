@@ -66,7 +66,7 @@ const TestCarousel3 = () => {
         <Link href={`/projects/jinro`}><a>
         <div className="mx-3 my-5 hover:opacity-50">
             <Image
-              src={"/jinrotop2.jpg"}
+                  src={"/AnyConv.com__IMG_6691.webp"}
               layout="responsive"
               width={640}
               height={400}
@@ -135,7 +135,7 @@ const TestCarousel3 = () => {
             <Link href={`/projects/jinro`}><a>
               <div className="mx-3 my-5 hover:opacity-50">
                 <Image
-                  src={"/jinrotop2.jpg"}
+                  src={"/AnyConv.com__IMG_6691.webp"}
                   layout="responsive"
                   width={640}
                   height={400}
