@@ -24,7 +24,7 @@ const StatusPage: NextPage<StatusPageProps> = (props) => {
       <main className='font-body bg-gray-100'>
         <div className='w-10/12 lg:w-8/12 m-auto'>
           <div className='text-center pt-20 w-full'>
-            <h1 className='text-3xl lg:text-5xl font-black pb-6'>VIDEO PLANNER</h1>
+            <h1 className='text-3xl lg:text-5xl font-black pb-6'>Video Planner</h1>
             <Image src={`/AnyConv.com__juri.webp`} width={1300} height={750} alt="" className='' />
 
           </div>
@@ -64,7 +64,7 @@ const StatusPage: NextPage<StatusPageProps> = (props) => {
             </div>
 
           </div>
-          <div className='text-center pb-20 text-xl font-bold'>
+          <div className='text-center pb-20 text-sm lg:text-xl font-bold'>
             <Link href={"/members/taro"} ><a >＜ BACK</a></Link>　|　<Link href={"/members"}><a>BACK TO LIST</a></Link>　|　<Link href={"/members/yutaka"}><a>NEXT ＞</a></Link>
           </div>
         </div>

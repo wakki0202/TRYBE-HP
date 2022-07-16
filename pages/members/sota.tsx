@@ -25,7 +25,7 @@ const StatusPage: NextPage<StatusPageProps> = (props) => {
       <main className='font-body bg-gray-100'>
         <div className='w-10/12 lg:w-8/12 m-auto'>
           <div className='text-center pt-20 w-full'>
-            <h1 className='text-3xl lg:text-5xl font-black pb-6'>DIRECTOR</h1>
+            <h1 className='text-2xl lg:text-5xl font-black pb-6'>Director</h1>
             <Image src={`/AnyConv.com__ina.webp`} width={1300} height={750} alt="" className='' />
 
           </div>
@@ -38,8 +38,7 @@ const StatusPage: NextPage<StatusPageProps> = (props) => {
             <div className='lg:w-8/12'>
               <p className='text-xs lg:text-sm  leading-relaxed font-bold pb-6'>2000年生まれ。株式会社TRYBE取締役。 イラスト、デザイン、写真、映像などのクリエイティブ業務の企画から編集まで一貫して行うディレクター。またエンタメ事業全体のディレクション、その他事業の企画立案、バックオフィス業務なども手がけ、枠やジャンルに収まらない役割を担う。学生が運営している他の組織・団体・法人との接点となり、マネージャーとしての役割も担っている。</p>
               <p className='text-xs lg:text-sm  leading-relaxed font-bold pb-6'>「関西大学フェスティバルin関西」のロゴコンペにて、ロゴ制作をディレクションし、優勝。アイデアコンペ「Evolve」で、会社クイズ採用システムからプロモーションを企画し、優勝。「屋台プロジェクト」、「サマーキャンパス」、「サンタ屋」の企画。「人狼コロシアム」、「アウトドアボードゲーム」、自社ブランディングのディレクション。「人狼コロシアム」「青春奪還作戦」のPVの企画、撮影、編集。</p>
-              <p className='hidden lg:block text-xs  leading-relaxed pb-6 font-bold'>TEL：080-4484-0979 / Email：s_inada@trybe.co.jp</p>
-              <p className='lg:hidden text-xs  leading-relaxed  font-bold'>TEL：080-4484-0979</p>
+              <p className='hidden lg:block text-xs  leading-relaxed pb-6 font-bold'>Email：s_inada@trybe.co.jp</p>
               <p className='lg:hidden text-xs  leading-relaxed pb-6 font-bold'>Email：s_inada@trybe.co.jp</p>
               <div className='flex '>
 
@@ -66,7 +65,7 @@ const StatusPage: NextPage<StatusPageProps> = (props) => {
             </div>
 
           </div>
-          <div className='text-center pb-20 text-xl font-bold'>
+          <div className='text-center pb-20 text-sm lg:text-xl font-bold'>
             <Link href={"/members/kenta"} ><a >＜ BACK</a></Link>　|　<Link href={"/members"}><a>BACK TO LIST</a></Link>　|　<Link href={"/members/airi"}><a>NEXT ＞</a></Link>
           </div>
 

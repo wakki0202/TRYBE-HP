@@ -30,7 +30,7 @@ const StatusPage: NextPage<StatusPageProps> = (props) => {
       <main className='font-body bg-gray-100'>
         <div className='w-10/12 lg:w-8/12 m-auto'>
           <div className='text-center pt-20 w-full'>
-            <h1 className='text-3xl lg:text-5xl font-black pb-6'>PLANNER</h1>
+            <h1 className='text-3xl lg:text-5xl font-black pb-6'>Planner</h1>
             <Image src={`/AnyConv.com__yu.webp`} width={1300} height={750} alt="" className='' />
 
           </div>
@@ -43,8 +43,7 @@ const StatusPage: NextPage<StatusPageProps> = (props) => {
             <div className='lg:w-8/12'>
               <p className='text-xs lg:text-sm  leading-relaxed font-bold pb-6'>2001年生まれ。株式会社TRYBEメンバー。 「変化や速さを求められる世の中で、自分の世界を大切に生きれる人を教育する」をモットーに、学生のメンターや起業家育成、企業のコンサルタントや、タレントのプロデュースなどの教育事業を中心に多岐にわたる役割を担っている。自身で企画立案も行っており、山を買うことを最終目標に「林間学校」という学生向けのキャリアイベントを運営している。</p>
               <p className='text-xs lg:text-sm  leading-relaxed font-bold pb-6'>中学2年生時、仮想通貨に手をつけ101万円の利益を出す。当時のUSJの部長と「学生団体ZONE」を共同代表。企業コンサル2社、タレントやプロスポーツ選手の人生設計、セカンドキャリア支援、事業設計を請け負う。ディズニーライブにてキッズダンサーの経験あり。「林間学校」企画運営。</p>
-              <p className='hidden lg:block text-xs  leading-relaxed pb-6 font-bold'>TEL：080-3863-6557 / Email：y_inoue@trybe.co.jp</p>
-              <p className='lg:hidden text-xs  leading-relaxed  font-bold'>TEL：080-3863-6557</p>
+              <p className='hidden lg:block text-xs  leading-relaxed pb-6 font-bold'>Email：y_inoue@trybe.co.jp</p>
               <p className='lg:hidden text-xs  leading-relaxed pb-6 font-bold'>Email：y_inoue@trybe.co.jp</p>
               <div className='flex '>
 
@@ -71,7 +70,7 @@ const StatusPage: NextPage<StatusPageProps> = (props) => {
             </div>
 
           </div>
-          <div className='text-center pb-20 text-xl font-bold'>
+          <div className='text-center pb-20 text-sm lg:text-xl font-bold'>
             <Link href={"/members/shunsuke"} ><a >＜ BACK</a></Link>　|　<Link href={"/members"}><a>BACK TO LIST</a></Link>　|　<Link href={"/members/hidetoki"}><a>NEXT ＞</a></Link>
           </div>
 
