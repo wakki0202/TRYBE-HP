@@ -25,7 +25,7 @@ const StatusPage: NextPage<StatusPageProps> = (props) => {
       <main className='font-body bg-gray-100'>
         <div className='w-10/12 lg:w-8/12 m-auto'>
           <div className='text-center pt-20 w-full'>
-            <h1 className='text-3xl lg:text-5xl font-black pb-6'>Game Planner</h1>
+            <h1 className='text-3xl lg:text-5xl font-black pb-6'>GAME PLANNER</h1>
             <Image src={`/hata.gif`} width={1300} height={750} alt="" className='' />
 
           </div>
